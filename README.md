@@ -108,7 +108,16 @@ python verify_site.py
 Para mantener el repositorio ordenado y permitir que cada uno de los 20 equipos enriquezca su solución de forma independiente, se debe seguir un flujo de trabajo lógico y ordenado. 
 
 > [!IMPORTANT]
-> **Permisos de Escritura:** Cualquier persona puede clonar el repositorio de forma pública y trabajar en su computadora. Sin embargo, para poder subir los cambios de vuelta al repositorio central en GitHub (`git push`), **debes estar registrado como colaborador del proyecto**. Si aún no tienes acceso de escritura, solicita al administrador del Clúster Copernicus que añada tu usuario de GitHub.
+> **Permisos de Escritura (Acceso a GitHub):**
+> Cualquier persona puede clonar el repositorio de forma pública y trabajar localmente en su computadora. Sin embargo, para poder subir tus cambios de vuelta al repositorio central en GitHub (`git push`), **necesitas ser miembro del proyecto**.
+> 
+> **Cómo solicitar acceso:**
+> Envía un correo electrónico a **copernicuscentroamerica@gmail.com** (o escribe a través del canal oficial del Clúster) indicando:
+> 1. Tu **nombre completo** e **institución**.
+> 2. El **nombre o número de tu solución** (ej: *Solución 01 - Gestión del Paisaje Montecristo*).
+> 3. Tu **nombre de usuario de GitHub** (ej: *mi-usuario-github*).
+> 
+> *Nota: Una vez que el administrador te agregue, recibirás un correo de invitación de GitHub. También puedes aceptar la invitación directamente visitando [https://github.com/copernicuscentroamerica/clusterafolu/invitations](https://github.com/copernicuscentroamerica/clusterafolu/invitations).*
 
 A continuación, haz clic en cada sección desplegable para ver las instrucciones en orden cronológico:
 
