@@ -1,0 +1,33 @@
+# Archivo CODEOWNERS de GitHub
+# Este archivo define los propietarios de código para directorios específicos.
+# GitHub solicitará obligatoriamente la revisión de los propietarios asignados 
+# antes de que se puedan fusionar cambios a la rama principal (main) en estas carpetas.
+
+# Regla general (por defecto, los administradores generales del repositorio)
+*                                                      @copernicuscentroamerica
+
+# -------------------------------------------------------------
+# Asignación de Propietarios por Carpeta de Solución (pages/)
+# Reemplazar '@usuario-equipo-X' con los usuarios de GitHub de cada equipo.
+# -------------------------------------------------------------
+
+/pages/01-gestion-paisaje-montecristo/                 @usuario-equipo-1
+/pages/02-analisis-multitemporal-cobertura-forestal/   @usuario-equipo-2
+/pages/03-cambio-cobertura-frontera-agricola/          @usuario-equipo-3
+/pages/04-monitoreo-cambios-cobertura-psa/              @usuario-equipo-4
+/pages/05-monitoreo-satelital-anp-mexico/              @usuario-equipo-5
+/pages/06-conectividad-calidad-habitat-selva-maya/     @usuario-equipo-6
+/pages/07-belize-heat-points-burn-scar/                @usuario-equipo-7
+/pages/08-historial-cicatrices-fuego-el-salvador/      @usuario-equipo-8
+/pages/09-monitoreo-incendios-peten/                   @usuario-equipo-9
+/pages/10-deteccion-temprana-cambio-uso-suelo/         @usuario-equipo-10
+/pages/11-monitoreo-cobertura-cicatrices-valle-nuevo/  @usuario-equipo-11
+/pages/12-paso-del-puma/                               @usuario-equipo-12
+/pages/13-copernicus-biodiversidad-conectividad/       @usuario-equipo-13
+/pages/14-conectividad-ganaderia-rio-platano/          @usuario-equipo-14
+/pages/15-alerta-temprana-plaga-musaceas/              @usuario-equipo-15
+/pages/16-monitoreo-plantaciones-forestales-teledeteccion/ @usuario-equipo-16
+/pages/17-estimacion-cosecha-cafe-guatemala/           @usuario-equipo-17
+/pages/18-verificacion-cacao-libre-deforestacion/      @usuario-equipo-18
+/pages/19-seguimiento-territorial-proyectos-natura/    @usuario-equipo-19
+/pages/20-agroeudr-miambiente/                         @usuario-equipo-20

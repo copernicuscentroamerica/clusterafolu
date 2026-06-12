@@ -213,15 +213,15 @@ Para poder asociar equipos de trabajo a soluciones específicas y evitar que un 
    * Presiona **Add people** (Añadir personas), ingresa el usuario o correo de GitHub del miembro del equipo y envíale la invitación con rol de **Write** (Escritura).
 
 2. **Configurar Propietarios de Carpeta (CODEOWNERS)**:
-   * Crea una carpeta llamada `.github` en la raíz del repositorio si no existe.
-   * Dentro de esa carpeta, crea un archivo de texto llamado `CODEOWNERS` (sin extensión).
-   * Define los usuarios responsables de cada solución usando la sintaxis de rutas de GitHub:
+   * Ya hemos pre-creado el archivo **`.github/CODEOWNERS`** en la raíz del repositorio con la estructura para las 20 soluciones.
+   * Abre y edita este archivo para reemplazar los marcadores `@usuario-equipo-X` con los nombres de usuario reales de GitHub de los responsables de cada carpeta.
+   * Por ejemplo:
      ```text
      # Ruta de la carpeta de solución                  # Usuario(s) responsable(s)
-     /pages/01-gestion-paisaje-montecristo/            @usuario-github-equipo1
-     /pages/02-analisis-multitemporal-cobertura/       @usuario-github-equipo2 @usuario-auxiliar
+     /pages/01-gestion-paisaje-montecristo/            @maria-trifinio
+     /pages/02-analisis-multitemporal-cobertura-forestal/ @juan-icf @marlon-diaz
      ```
-   * Sube este archivo a la rama principal (`main`).
+   * Haz commit y sube los cambios del archivo editado a la rama principal (`main`).
 
 3. **Activar las Reglas de Protección de Ramas**:
    * En la configuración del repositorio en GitHub, ve a **Settings** > **Branches** (Ramas).
