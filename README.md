@@ -200,3 +200,35 @@ Para registrar localmente tus avances y subirlos de forma segura al repositorio 
    ```
    *(Nota: Si no tienes permisos de colaborador, este comando fallará pidiéndote autenticación. Asegúrate de haber solicitado acceso de escritura previamente).*
 </details>
+
+<details>
+<summary><b>🔑 5. Para Administradores: Cómo gestionar accesos y proteger carpetas específicas</b></summary>
+
+En Git y GitHub no existe un control de permisos de lectura/escritura a nivel de carpetas individuales por defecto (cualquier colaborador invitado al repositorio tiene permisos de escritura en todo el proyecto). 
+
+Para poder asociar equipos de trabajo a soluciones específicas y evitar que un equipo modifique accidentalmente la carpeta de otra solución, los administradores deben seguir estos pasos:
+
+1. **Añadir Colaboradores al Repositorio**:
+   * Ve al repositorio en GitHub y haz clic en **Settings** (Configuración) > **Collaborators** (Colaboradores).
+   * Presiona **Add people** (Añadir personas), ingresa el usuario o correo de GitHub del miembro del equipo y envíale la invitación con rol de **Write** (Escritura).
+
+2. **Configurar Propietarios de Carpeta (CODEOWNERS)**:
+   * Crea una carpeta llamada `.github` en la raíz del repositorio si no existe.
+   * Dentro de esa carpeta, crea un archivo de texto llamado `CODEOWNERS` (sin extensión).
+   * Define los usuarios responsables de cada solución usando la sintaxis de rutas de GitHub:
+     ```text
+     # Ruta de la carpeta de solución                  # Usuario(s) responsable(s)
+     /pages/01-gestion-paisaje-montecristo/            @usuario-github-equipo1
+     /pages/02-analisis-multitemporal-cobertura/       @usuario-github-equipo2 @usuario-auxiliar
+     ```
+   * Sube este archivo a la rama principal (`main`).
+
+3. **Activar las Reglas de Protección de Ramas**:
+   * En la configuración del repositorio en GitHub, ve a **Settings** > **Branches** (Ramas).
+   * En *Branch protection rules*, presiona **Add branch protection rule** (Añadir regla de protección de rama).
+   * Escribe `main` en *Branch name pattern*.
+   * Marca las siguientes casillas:
+     * **"Require a pull request before merging"** (Requerir Pull Request antes de fusionar).
+     * **"Require review from Code Owners"** (Requerir revisión de los Propietarios de Código).
+   * Con esta configuración, cualquier cambio en la carpeta de una solución protegida en `pages/` requerirá obligatoriamente la revisión y aprobación del propietario o miembros asignados a esa carpeta en el archivo `CODEOWNERS` antes de poder integrarse a `main`.
+</details>
