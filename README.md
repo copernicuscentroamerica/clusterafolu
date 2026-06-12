@@ -105,41 +105,17 @@ python verify_site.py
 
 ## 🛠️ Guía de Contribución para los Equipos de Solución
 
-Para mantener el repositorio ordenado y permitir que cada uno de los 20 equipos enriquezca su solución de forma independiente, cada carpeta en `pages/{nombre-solucion}/` debe considerarse un módulo autónomo. 
+Para mantener el repositorio ordenado y permitir que cada uno de los 20 equipos enriquezca su solución de forma independiente, se debe seguir un flujo de trabajo lógico y ordenado. 
 
-A continuación, haz clic en cada sección desplegable para ver las instrucciones específicas de cómo alimentar tu espacio:
+> [!IMPORTANT]
+> **Permisos de Escritura:** Cualquier persona puede clonar el repositorio de forma pública y trabajar en su computadora. Sin embargo, para poder subir los cambios de vuelta al repositorio central en GitHub (`git push`), **debes estar registrado como colaborador del proyecto**. Si aún no tienes acceso de escritura, solicita al administrador del Clúster Copernicus que añada tu usuario de GitHub.
 
-<details>
-<summary><b>📂 1. Cómo Organizar los Datos y Documentos</b></summary>
-
-Cada equipo debe crear las siguientes subcarpetas dentro del directorio de su solución (ej. `pages/01-gestion-paisaje-montecristo/`):
-*   `datos/`: Para guardar archivos de datos locales (CSV, GeoJSON, Shapefiles, KML, etc.).
-*   `documentos/`: Para subir manuales de usuario, reportes en PDF, fichas complementarias y metodologías detalladas.
-
-*Ejemplo de estructura de archivos esperada:*
-```text
-pages/01-gestion-paisaje-montecristo/
-├── index.html (la landing page principal de la solución)
-├── datos/
-│   └── limites_montecristo.geojson
-└── documentos/
-    └── manual_usuario_v1.pdf
-```
-</details>
+A continuación, haz clic en cada sección desplegable para ver las instrucciones en orden cronológico:
 
 <details>
-<summary><b>💻 2. Cómo Subir y Documentar Scripts (Python / R)</b></summary>
+<summary><b>📥 1. Cómo Clonar y Sincronizar el Repositorio (Primer Paso Obligatorio)</b></summary>
 
-Si tu solución incluye código de procesamiento (ej. Google Earth Engine, scripts de Python, R, o Notebooks de Jupyter):
-1. Crea una carpeta llamada `scripts/` dentro del directorio de tu solución.
-2. Guarda allí tus archivos de código (ej. `analisis.py`, `procesamiento.R`, `gee_code.js`).
-3. Añade un archivo de texto simple `README.md` **dentro de esa carpeta de scripts** detallando las librerías necesarias y cómo ejecutar el código.
-</details>
-
-<details>
-<summary><b>📥 3. Cómo Clonar y Sincronizar el Repositorio (Primera vez y trabajo diario)</b></summary>
-
-Para descargar el proyecto a tu computadora y trabajar de forma local sincronizado con el repositorio central en GitHub, sigue estos pasos:
+Para descargar el proyecto a tu computadora y comenzar a trabajar de forma local sincronizada:
 
 1. **Clonar por primera vez**:
    * Abre tu terminal (PowerShell, Git Bash o CMD) en tu computadora.
@@ -164,6 +140,35 @@ Para descargar el proyecto a tu computadora y trabajar de forma local sincroniza
 </details>
 
 <details>
+<summary><b>📂 2. Cómo Organizar los Datos y Documentos de tu Solución</b></summary>
+
+Una vez que tengas el repositorio clonado localmente, busca la carpeta asignada a tu solución dentro de la carpeta `pages/` (por ejemplo, `pages/01-gestion-paisaje-montecristo/`).
+
+Cada equipo debe estructurar su espacio local creando las siguientes subcarpetas dentro del directorio de su solución:
+*   `datos/`: Para guardar archivos de datos locales (CSV, GeoJSON, Shapefiles, KML, etc.).
+*   `documentos/`: Para subir manuales de usuario, reportes en PDF, fichas complementarias y metodologías detalladas.
+
+*Ejemplo de estructura de archivos esperada:*
+```text
+pages/01-gestion-paisaje-montecristo/
+├── index.html (la landing page principal de la solución)
+├── datos/
+│   └── limites_montecristo.geojson
+└── documentos/
+    └── manual_usuario_v1.pdf
+```
+</details>
+
+<details>
+<summary><b>💻 3. Cómo Subir y Documentar Scripts (Python / R)</b></summary>
+
+Si tu solución incluye código de procesamiento (ej. Google Earth Engine, scripts de Python, R, o Notebooks de Jupyter):
+1. Crea una carpeta llamada `scripts/` dentro del directorio de tu solución (ej. `pages/01-gestion-paisaje-montecristo/scripts/`).
+2. Guarda allí tus archivos de código (ej. `analisis.py`, `procesamiento.R`, `gee_code.js`).
+3. Añade un archivo de texto simple `README.md` **dentro de esa carpeta de scripts** detallando las librerías necesarias y cómo ejecutar el código.
+</details>
+
+<details>
 <summary><b>🚀 4. Cómo Guardar y Subir tus Cambios a GitHub (Comandos Git)</b></summary>
 
 Para registrar localmente tus avances y subirlos de forma segura al repositorio remoto en GitHub:
@@ -184,4 +189,5 @@ Para registrar localmente tus avances y subirlos de forma segura al repositorio 
    ```powershell
    git push origin main
    ```
+   *(Nota: Si no tienes permisos de colaborador, este comando fallará pidiéndote autenticación. Asegúrate de haber solicitado acceso de escritura previamente).*
 </details>
