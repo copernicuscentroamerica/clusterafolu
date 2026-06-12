@@ -101,3 +101,61 @@ Si tienes Python instalado, puedes ejecutar estos scripts en la consola para reg
 python generate_pages.py
 python verify_site.py
 ```
+
+---
+
+## 🛠️ Guía de Contribución para los Equipos de Solución
+
+Para mantener el repositorio ordenado y permitir que cada uno de los 20 equipos enriquezca su solución de forma independiente, cada carpeta en `pages/{nombre-solucion}/` debe considerarse un módulo autónomo. 
+
+A continuación, haz clic en cada sección desplegable para ver las instrucciones específicas de cómo alimentar tu espacio:
+
+<details>
+<summary><b>📂 1. Cómo Organizar los Datos y Documentos</b></summary>
+
+Cada equipo debe crear las siguientes subcarpetas dentro del directorio de su solución (ej. `pages/01-gestion-paisaje-montecristo/`):
+*   `datos/`: Para guardar archivos de datos locales (CSV, GeoJSON, Shapefiles, KML, etc.).
+*   `documentos/`: Para subir manuales de usuario, reportes en PDF, fichas complementarias y metodologías detalladas.
+
+*Ejemplo de estructura de archivos esperada:*
+```text
+pages/01-gestion-paisaje-montecristo/
+├── index.html (la landing page principal de la solución)
+├── datos/
+│   └── limites_montecristo.geojson
+└── documentos/
+    └── manual_usuario_v1.pdf
+```
+</details>
+
+<details>
+<summary><b>💻 2. Cómo Subir y Documentar Scripts (Python / R)</b></summary>
+
+Si tu solución incluye código de procesamiento (ej. Google Earth Engine, scripts de Python, R, o Notebooks de Jupyter):
+1. Crea una carpeta llamada `scripts/` dentro del directorio de tu solución.
+2. Guarda allí tus archivos de código (ej. `analisis.py`, `procesamiento.R`, `gee_code.js`).
+3. Añade un archivo de texto simple `README.md` **dentro de esa carpeta de scripts** detallando las librerías necesarias y cómo ejecutar el código.
+</details>
+
+<details>
+<summary><b>🚀 3. Flujo para Subir Cambios a GitHub (Comandos Git)</b></summary>
+
+Para subir tus archivos locales al repositorio remoto de GitHub:
+
+1. Abre tu terminal (PowerShell, Git Bash o CMD) en tu computadora y colócate en la raíz del proyecto:
+   ```powershell
+   cd c:\web_antigravity\web_soluciones_cluster_afolu
+   ```
+2. Añade los nuevos archivos creados en tu carpeta:
+   ```powershell
+   git add pages/nombre-de-tu-solucion/
+   ```
+3. Guarda el registro de tus cambios (commit):
+   ```powershell
+   git commit -m "Add: scripts y datos para la solucion XX"
+   ```
+4. Sube los cambios al servidor de GitHub:
+   ```powershell
+   git push origin main
+   ```
+</details>
