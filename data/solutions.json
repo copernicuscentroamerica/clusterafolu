@@ -1,0 +1,1408 @@
+[
+  {
+    "id": "01",
+    "slug": "01-gestion-paisaje-montecristo",
+    "sala": 1,
+    "titulo": "Gestión del paisaje forestal transfronterizo del Macizo Montecristo",
+    "proponentes": "Freddy Alexander Díaz Valdés",
+    "institucion": "Comisión Trinacional del Plan Trifinio",
+    "paises": [
+      "Guatemala",
+      "Honduras",
+      "El Salvador"
+    ],
+    "correo": "F.diaz@plantrifinio.int",
+    "grupo_trabajo": "Cobertura, deforestación, cambio de uso y monitoreo forestal territorial",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Incendios forestales",
+      "Cambio de uso del suelo / cobertura",
+      "Biodiversidad",
+      "Agricultura",
+      "Monitoreo comunitario"
+    ],
+    "problema": "El Macizo Montecristo es un territorio compartido por El Salvador, Guatemala y Honduras, con alto valor ambiental por sus bosques, biodiversidad, fuentes de agua y conectividad ecológica. Sin embargo, su gestión enfrenta dificultades porque la información sobre cambios de cobertura forestal, incendios y fragmentación del paisaje no siempre está actualizada, integrada ni disponible con una misma metodología para los tres países. Esto limita la capacidad de las instituciones para tomar decisiones oportunas sobre conservación, restauración, prevención de amenazas y manejo sostenible de los recursos naturales.",
+    "relevancia": "Para la Comisión Trinacional del Plan Trifinio es importante porque el Macizo Montecristo es un paisaje forestal compartido por tres países, cuya conservación depende de una gestión coordinada. La falta de información común y actualizada sobre cobertura forestal, incendios y conectividad ecológica limita la capacidad de tomar decisiones oportunas. El uso de productos Copernicus permitiría generar información técnica comparable para orientar acciones de conservación, restauración y manejo sostenible de los recursos naturales del territorio.",
+    "territorio": {
+      "referencia": "Macizo Montecristo, territorio transfronterizo de la Región Trifinio entre El Salvador, Guatemala y Honduras",
+      "punto_aproximado": "14.423375 -89.355487 0 0",
+      "latitud": "14.423375",
+      "longitud": "-89.355487",
+      "poligono_aproximado": "14.647368 -88.684387 0 0;14.727073 -89.165039 0 0;14.554343 -89.747314 0 0;14.085965 -89.656677 0 0;14.128585 -89.145813 0 0;14.647368 -88.684387 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "Macizo_Montecristo-8_55_42.kml",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783812736/attachments/attKWnFJqaKYpbCsJsLWtmuH/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Proyecto de cooperación",
+      "descripcion": "Equipo técnico de la Comisión Trinacional del Plan Trifinio y contrapartes institucionales de El Salvador, Guatemala y Honduras vinculadas al monitoreo forestal, áreas protegidas, incendios, restauración y gestión territorial del Macizo Montecristo.",
+      "decision_apoyo": "La solución apoyaría decisiones para priorizar áreas de restauración, verificar alertas de cambio de cobertura forestal, planificar acciones de campo, monitorear incendios y evaluar la conectividad ecológica del Macizo Montecristo. Esta información permitirá orientar intervenciones de conservación, prevención de amenazas y manejo sostenible del territorio con una base técnica común para los tres países."
+    },
+    "producto": {
+      "tipo": "Capa geoespacial; Indicador; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Base de datos; Protocolo operativo",
+      "descripcion": "Una herramienta geoespacial de consulta y monitoreo para el Macizo Montecristo, que permita visualizar, interpretar y descargar mapas, capas e indicadores sobre cambios de cobertura forestal, incendios forestales y conectividad ecológica. La solución debería incluir mapas comparables para El Salvador, Guatemala y Honduras, alertas o zonas de cambio, áreas afectadas por fuego, zonas prioritarias para restauración y conectores ecológicos críticos. También debería permitir generar insumos técnicos para reportes institucionales, planificación de acciones de campo y toma de decisiones sobre conservación y manejo sostenible del paisaje forestal.",
+      "avance_presencial": "Esperaría lograr un prototipo inicial que incluya un flujo de análisis básico con productos Copernicus, un mapa preliminar del Macizo Montecristo, una capa demostrativa del cambio o alertas de cobertura forestal, incendios o fragmentación, y una versión inicial del visor o tablero para orientar su desarrollo posterior.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Visor web; API / servicio de datos; Geoportal institucional",
+      "forma_uso": "La solución sería una herramienta de consulta en línea, mediante un visor o tablero geográfico, que pueda ser utilizado por equipos técnicos de la Comisión Trinacional del Plan Trifinio y contrapartes institucionales de El Salvador, Guatemala y Honduras. El producto permitiría revisar mapas e indicadores sobre cobertura forestal, incendios y conectividad ecológica del Macizo Montecristo, así como descargar capas o reportes básicos para reuniones técnicas, planificación de campo y toma de decisiones. La información podría ser actualizada mensualmente por una unidad técnica institucional, utilizando productos Copernicus y datos locales disponibles. También podría compartirse en espacios de coordinación trinacional y, cuando sea pertinente, con municipalidades, comunidades o actores locales para apoyar acciones de conservación, prevención de incendios y restauración del paisaje forestal.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Semiautomática, es decir, que se realice el análisis y se pueda realizar un proceso de validación manual."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos de incendios / áreas quemadas; Productos/índices de vegetación; Biomasa / carbono; Agua, humedad o humedales; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Se cuenta o se podría gestionar información institucional y de campo relacionada con el Macizo Montecristo y la Región Trifinio, incluyendo límites de áreas protegidas, límites administrativos de El Salvador, Guatemala y Honduras, cuencas hidrográficas, red hídrica, caminos, cobertura forestal nacional, mapas de uso del suelo, registros históricos de incendios y corredores biológicos.",
+      "faltantes": "Sería necesario identificar fuentes oficiales para información de biodiversidad, puntos críticos de deforestación, áreas degradadas y sitios prioritarios de restauración. Durante la jornada presencial se requeriría orientación para seleccionar los productos Copernicus más adecuados, definir la escala de análisis y establecer una metodología común que pueda aplicarse de forma comparable en El Salvador, Guatemala y Honduras.",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura/uso; Detección de cambios; Series temporales; Análisis de riesgo; Visualización / dashboard",
+      "flujo_imaginado": "El flujo de trabajo preliminar iniciaría con la delimitación del área de estudio del Macizo Montecristo y la recopilación de capas base institucionales, como límites administrativos, áreas protegidas, cuencas, caminos, ríos y zonas de restauración. Luego se seleccionarían imágenes Sentinel-2 y Sentinel-1 para diferentes fechas, priorizando períodos comparables entre años y épocas secas o lluviosas según el análisis requerido. Posteriormente se realizaría el preprocesamiento de las imágenes, incluyendo filtrado por nubosidad, corrección o selección de imágenes limpias y preparación de mosaicos para los tres países. Con estas imágenes se calcularían índices de vegetación y cambio, como NDVI para vigor de la vegetación y NBR o dNBR para identificar áreas quemadas y recuperación post-incendio. También se usarían productos de cobertura y uso del suelo de Copernicus para comparar cambios en la cobertura forestal. Después se generarían capas preliminares de pérdida o recuperación de cobertura forestal, áreas afectadas por incendios y zonas críticas para la conectividad ecológica. Finalmente, las capas validadas se integrarían en un mapa, visor o tablero básico que permita visualizar, consultar, descargar e interpretar la información para apoyar decisiones de conservación, restauración, monitoreo de incendios y planificación de acciones de campo en el Macizo Montecristo.",
+      "indices_algoritmos": "NDVI, EVI, NDMI y NDWI para vegetación y humedad; NBR y dNBR para áreas quemadas y recuperación post-incendio; clasificación supervisada, clasificación no supervisada y detección de cambios para cobertura forestal; métricas de paisaje para fragmentación, bosque núcleo, tamaño de parches, conectividad estructural y corredores ecológicos. Como herramientas podrían utilizarse Google Earth Engine, QGIS, ArcGIS Online/Experience Builder y Survey123 para validación de campo.",
+      "frecuencia_actualizacion": "mensual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Cómo podemos diseñar un flujo de análisis con productos Copernicus que permita generar mapas e indicadores mensuales sobre cobertura forestal, incendios y conectividad ecológica del Macizo Montecristo, útiles para la toma de decisiones institucionales trinacionales?",
+      "areas_asesoria": "Datos e insumos; Metodología y análisis geoespacial; Producto esperado / diseño del entregable; Despliegue digital",
+      "datos": "¿Qué productos Copernicus o Sentinel son más adecuados para monitorear cobertura forestal, incendios y conectividad ecológica en el Macizo Montecristo?, ¿Qué datos locales deberían priorizarse para validar los resultados, como límites de áreas protegidas, registros de incendios, puntos de campo, cobertura forestal nacional, zonas de restauración y corredores biológicos? y ¿Qué escala espacial y temporal sería recomendable para generar mapas e indicadores comparables entre los tres países?",
+      "metodologia": "¿Qué índices, algoritmos y flujo de trabajo recomiendan para monitorear cambios de cobertura forestal, incendios y conectividad ecológica en el Macizo Montecristo usando productos Copernicus?, ¿Qué escala espacial y temporal sería más adecuada para generar resultados comparables entre El Salvador, Guatemala y Honduras? y ¿Cómo podrían validarse los resultados con datos de campo e información institucional?\nPreguntas sobre producto esperado\n¿Qué producto sería más útil para presentar y usar los resultados: visor geográfico, tablero de indicadores, capas descargables, mapas PDF, reportes periódicos o una combinación de estos?, ¿Qué indicadores mínimos debería incluir para apoyar decisiones sobre cobertura forestal, incendios, restauración y conectividad ecológica del Macizo Montecristo? y ¿Qué formato permitiría institucionalizar mejor la solución dentro de la Comisión Trinacional del Plan Trifinio y sus contrapartes?\nPreguntas sobre despliegue digital\n¿Cómo puedo pasar de un análisis en Google Earth Engine a una herramienta digital que otros puedan consultar y usar?, ¿Qué opción recomiendan para un primer prototipo: visor web, dashboard, ArcGIS Online, Google Earth Engine, GitHub o una combinación? y¿Qué elementos mínimos se necesitan para actualizar la solución mensualmente, compartir capas, visualizar indicadores y dejarla institucionalizada dentro de la Comisión Trinacional del Plan Trifinio?",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "02",
+    "slug": "02-analisis-multitemporal-cobertura-forestal",
+    "sala": 1,
+    "titulo": "Análisis multitemporal de cobertura forestal (Ganancias, pérdidas y alerta de deforestación) en múltiples áreas de Honduras",
+    "proponentes": "Marlon Alexander Díaz Gómez",
+    "institucion": "Instituto Nacional de Conservación y Desarrollo Forestal, Áreas Protegidas y Vida Silvestre.",
+    "paises": [
+      "Honduras"
+    ],
+    "correo": "marlonalex1317@gmail.com",
+    "grupo_trabajo": "Cobertura, deforestación, cambio de uso y monitoreo forestal territorial",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Deforestación",
+      "Cambio de uso del suelo / cobertura"
+    ],
+    "problema": "Se tiene bastante solicitud para aprobación legal de actividades que están relacionadas con áreas de bosque, por tanto requieren evaluar el historial de cambio y eventos de deforestación. Actualmente, se hace manual y con la app se busca reducir el tiempo de respuesta.",
+    "relevancia": "La relevancia está en la aprobación de planes o licencias con bases sólidas, informadas y verificables. Por lo anterior, actualmente el tiempo de respuesta es tardado y dependiente de la capacidad técnica en la interpretación de imágenes satelitales.",
+    "territorio": {
+      "referencia": "Biosfera del Río Plátano (inicialmente, porque la idea es que sea funcional para todo el país a partir de la carga de un aréa de estudio)",
+      "punto_aproximado": "15.389606 -85.003558 0 0",
+      "latitud": "15.389606",
+      "longitud": "-85.003558",
+      "poligono_aproximado": "15.924356 -85.01207 0 0;15.823966 -84.221229 0 0;15.411319 -84.364019 0 0;14.758947 -85.078004 0 0;15.053028 -85.582113 0 0;15.70449 -85.235908 0 0;15.924356 -85.01207 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "Rio_platano-13_59_38.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782980924/attachments/attCw2k9g7dPbupDmDZ52CKA/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Academia; Proyecto de cooperación; Sector privado",
+      "descripcion": "El usuario final es el propietario de bosques, cooperativas forestales, comunidades organizadas, comanejadores de áreas protegidas. Y para el ICF por la optimización de recursos técnicos y tiempo.",
+      "decision_apoyo": "Priorizar la atención a la deforestación y la extensión de permisos basados en decisiones informadas."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Reporte; Dashboard / tablero; Aplicación",
+      "descripcion": "La visualización en panel o canva sería mapa con las capas resultantes y datos de área para pérdidas, ganancias y alertas por deforestación recientes. Área de filtros, para usarlo a partir de las capas wfs del geoportal de ICF Debe descargar geometría y un reporte estandarizado.",
+      "avance_presencial": "La estructuración e integración de todas las fuentes de datos a utilizar y la aparaciencia del panel o canva, con la finalidad de que la tutoría se base en el refinamiento de resultados.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Google Earth Engine App; Base de datos; GeoServer u otro servidor geoespacial; API / servicio de datos; Geoportal institucional",
+      "forma_uso": "Reporte impreso que el usuario final usaría para avalar la no deforestación en el área que necesita intervenir o manejar",
+      "requiere_actualizacion": "No indicado en la ficha",
+      "descripcion_actualizacion": "No indicado en la ficha"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos/índices de vegetación; Límites locales / institucionales",
+      "disponibles": "1. Limites administrativas politicas y ambientales 2. Mapas de cobertura forestal 3. Bases del Inventario Nacional Forestal 4. Levantamientos de datos de actividad 5. Bases de datos de alertas de deforestación 6. Entre otras, ICF por ser el rector del sector forestal cuenta con muchas bases de datos geoespaciales importantes.",
+      "faltantes": "Como se ha visualizado, pienso que se cuenta con toda la información necesaria.",
+      "documento_relacionado": "AM-14_33_39.png",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782980924/attachments/atteMiHJwToqjd47B5c9NeWD/",
+      "enlace_externo": "https://1drv.ms/f/c/f4f546ca77b58263/IgDosT3BFFmZQb8Z2D3WqDVpAbXZk75mqkmPvvNkvQfgS84?e=s7x1x9"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Detección de cambios; Series temporales; Visualización / dashboard",
+      "flujo_imaginado": "Determinar el área de estudio, selección de periodicidad de imagenes sentinel 1 y 2, limpieza de imagenes, calculo de indices necesarios, filtrado según mapas de cobertura como referencia de ser necesario, calculo de diferencias para detección de cambios, visualización en app, generación de geometria, generación de reporte, exportar geometría y pdf.",
+      "indices_algoritmos": "NDVI, SAVI, con desarrollo en GEE.",
+      "frecuencia_actualizacion": "continua"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Que tipo de filtro me recomendaría utilizar para limpiar el área, considerando que la zona existe alta presencia de nubes y sombras?",
+      "areas_asesoria": "Alcance y delimitación del problema; Validación de resultados; Despliegue digital; Sostenibilidad institucional y mantenimiento\nPreguntas sobre alcance\n¿Estoy involucrando varios resultados en un solo proceso, eso es factible?",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "¿Que metodología me recomiendan usar para validar los resultados?,para estar seguro de decir al usuario final esto fue lo que sucedio en el periodo de tiempo evaluado.\nPreguntas sobre despliegue digital\n¿Si quiero que sea publico, que necesito hacer para que no dependa de mi proyecto de GEE?\nPreguntas sobre sostenibilidad\n¿Me recomiendan documentar y hacer un articulo que permita que la app pueda ser usada por cualquier tipo de usuario?",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "03",
+    "slug": "03-cambio-cobertura-frontera-agricola",
+    "sala": 1,
+    "titulo": "Monitoreo del cambio de cobertura debido al avance de la frontera agrícola",
+    "proponentes": "Willy Eduardo Castaneda Aparicio",
+    "institucion": "Mancomunidad La Montañona",
+    "paises": [
+      "El Salvador"
+    ],
+    "correo": "castanedawilly14@gmail.com",
+    "grupo_trabajo": "Cobertura, deforestación, cambio de uso y monitoreo forestal territorial",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Incendios forestales",
+      "Cambio de uso del suelo / cobertura",
+      "Restauración",
+      "Conectividad ecológica",
+      "Agricultura",
+      "Ganadería",
+      "Agua, humedales o sedimentos"
+    ],
+    "problema": "La frontera agrícola está avanzando en el área natural protegida conocida como \"La Montañona\" que es un macizo boscoso que provee de muchos servicios ecosistémicos, es corredor biológico que alberga fauna como el Puma y entre estos servicios y el más importante la producción de agua para 7 distritos, es por ello que se desea monitorear este avance el cual genera deforestación, contaminación de mantos acuíferos y con esto poder tomar medidas de conservación, protección y restauración en la zona.",
+    "relevancia": "Este problema es de gran importancia para la institución y población en general, ya que con el monitoreo se pueden definir las áreas en las cuales se debe de priorizar el trabajo y la restauración, y promover buenas prácticas en el territorio que garanticen el aumento y disponibilidad de agua para las familias",
+    "territorio": {
+      "referencia": "La Montañona",
+      "punto_aproximado": "14.138107 -88.907496 1400 0",
+      "latitud": "14.138107",
+      "longitud": "-88.907496",
+      "poligono_aproximado": "14.193166 -88.973468 0 0;14.173461 -88.86611 0 0;14.021621 -88.902516 0 0;14.063587 -89.015177 0 0;14.139239 -88.986515 0 0;14.193166 -88.973468 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "Areas de interes-15_27_3.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783243419/attachments/attXTdFJYqqaYeXtC4GpRXD8/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Academia; Productores / cooperativas; Proyecto de cooperación",
+      "descripcion": "Mancomunidad La Montañona",
+      "decision_apoyo": "Priorizar restauración, debido a que se tendrían los lugares específicos sobre los cuales se tiene que restaurar mediante diferentes practicas"
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Aplicación; Formulario de campo; Base de datos; Protocolo operativo; Repositorio técnico",
+      "descripcion": "Una aplicación en la cual mediante el monitoreo se puedan definir las áreas que se deben de priorizar y a la misma vez monitoreo en el tiempo para ver si las acciones ejecutadas han contribuido a la restauracion",
+      "avance_presencial": "Primer script",
+      "nivel_acceso": "institutional",
+      "componentes_despliegue": "Google Earth Engine App; Dashboard; Visor web; Base de datos; API / servicio de datos; Geoportal institucional",
+      "forma_uso": "El producto lo pueden usar las instituciones tomadoras de decisiones, para consultar y ejecutar acciones en campo para la mejora del territorio en su zona de trabajo",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "por temporada, ya que se pueden tener mas datos de campo para alimentar la herramienta y que genere mejores resultados"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Productos de incendios / áreas quemadas; Productos/índices de vegetación; Biomasa / carbono; Agua, humedad o humedales; Límites locales / institucionales",
+      "disponibles": "Hay mapas previos, parcelas georeferenciadas, georeferencias de sistemas de agua, rios, microcuencas, subcuencas, limites administrativos",
+      "faltantes": "zonas de cultivo o pasturas",
+      "documento_relacionado": "Metodologia (2)-15_41_22.zip",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783243419/attachments/attRJzET9ghFVh5hY8nUwZQq/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura/uso; Detección de cambios; Análisis de riesgo; Validación de campo; Integración con bases de datos; Visualización / dashboard",
+      "flujo_imaginado": "imágenes de satélite en épocas de cultivos, épocas sin cultivos, época seca, comparar fechas anteriores, calcular índices, realizar una detección de cambios, puntos conocidos, generar capas, validar en campo, generar mapas, publicarlos, toma de decisiones",
+      "indices_algoritmos": "NDVI, EVI, NBR, clasificacion supervisada, GEE, QGIS, Arcgis, machine learning.",
+      "frecuencia_actualizacion": "semestral"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Que metodología se debe de utilizar para poder definir correctamente los usos de suelo y monitorear los cambios de la cobertura en el territorio",
+      "areas_asesoria": "Metodología y análisis geoespacial",
+      "datos": "No indicado en la ficha",
+      "metodologia": "Qué índices, algoritmos o flujos de trabajo podrían ser útiles para mi idea? ¿Qué escala espacial o temporal sería más adecuada?",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "04",
+    "slug": "04-monitoreo-cambios-cobertura-psa",
+    "sala": 1,
+    "titulo": "Monitoreo y Control en cambios de la cobertura forestal en proyectos bajo el Programa de Pagos por Servicios Ambientales en Costa Rica",
+    "proponentes": "Jennifer Hernández Sánchez, Randall Herrera González, Esaud Chaves Picado y Victor Sojo Chaves",
+    "institucion": "Fondo Nacional de Financiamiento Forestal (Fonafifo)",
+    "paises": [
+      "Costa Rica"
+    ],
+    "correo": "esaud.chaves@fonafifo.go.cr",
+    "grupo_trabajo": "Cobertura, deforestación, cambio de uso y monitoreo forestal territorial",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Cambio de uso del suelo / cobertura",
+      "Biodiversidad",
+      "Agricultura",
+      "Ganadería"
+    ],
+    "problema": "La rápida identificación  de zonas o áreas que presentan cambio de cobertura en forma automatizada. Obtencion de información para la oportuna toma de decisiones en los proyectos de Pagos de Servicios Ambientales en Costa Rica; identificando oportunamente sitios o áreas con alta incidencia en los cambios de cobertura.",
+    "relevancia": "Esta herramienta nos brindará una respuesta oportuna en la atención del seguimiento y control de los proyectos de Pagos por Servicios Ambientales, en función de la preservación del estado de la vobertura forestal según los lineamientos y regulaciones del programa.",
+    "territorio": {
+      "referencia": "Región administrativa Caribe Norte",
+      "punto_aproximado": "10.452067 -84.013352 0 0",
+      "latitud": "10.452067",
+      "longitud": "-84.013352",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "si",
+      "archivo_limites": "Regional Caribe Norte-10_29_38.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784222553/attachments/attBUPxcTAARS37pNaGDNAgf/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; ONG / organización conservacionista; Sector privado; Otro; Productos de servicios ecosistémicos y Públicos en general",
+      "descripcion": "Dirección de Servicios Ambientales - Fonafifo",
+      "decision_apoyo": "Se quiere apoyar en la restauración, verificar alertas, planificar acciones de campo, realización de acciones de seguimiento y control a los proyectos de Pagos por Servicios Ambientales, entre otros."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Aplicación; Base de datos",
+      "descripcion": "Capas SIG para el analisis de la cobertura en el caso de detectarse una alerta dentro del área de interes, además de un dashboar que permita la visualizacion de un desgloce de las alertas segun prioridades definidas y la localizacion de las mismas.",
+      "avance_presencial": "Script reproducible",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Visor web; GeoServer u otro servidor geoespacial; API / servicio de datos",
+      "forma_uso": "El producto será desarrollado para la toma de decisiones de la institución y de los profesioneles forestales que brindan asesoría a los dueños de la tierra que se encuentran en el Programa de Pago por Servicios Ambientales.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Manual - mensual"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos de vegetación",
+      "disponibles": "Límites institucionales y administrativos, shape de proyectos con identificacion de tipos de usos, mapas de cobertura.",
+      "faltantes": "No indicado en la ficha",
+      "documento_relacionado": "AREA DE INFLUENCIA PROYECTO-10_36_9.pdf",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784222553/attachments/attqE4ExrUNKeikrSy5Rpsfo/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Análisis de riesgo; Visualización / tablero",
+      "flujo_imaginado": "Seleccion de área de interes - adquisición de Imagenes - procesamiento automatizado para la identificacion de cambios en la cobertura mediante indices NDVI, NDMI, NBR, etc- motor de deteccion de cambios - Generar alerta - Validación técnica",
+      "indices_algoritmos": "indices NDVI, NDMI, NBR, dNBR, clasificacion supervisada, métricas de paisaje, Google Earth Engine, Qgis",
+      "frecuencia_actualizacion": "mensual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Qué metodología recomiendan para detectar cambios recientes de cobertura forestal en mi territorio?",
+      "areas_asesoria": "Alcance y producto mínimo viable; Datos e insumos; Metodología y análisis geoespacial; Validación y control de calidad; Producto esperado y visualización; Despliegue digital; Sostenibilidad institucional",
+      "datos": "¿Que datos disponibles y necesarios debería de obtener para el desarrollo de la herramienta de evaluación?",
+      "metodologia": "¿Cual sería la mejor frecuencia de corrida y actualización de la herramienta?",
+      "validacion": "¿Como podría replicar la herramienta a diferentes zonas del país?",
+      "producto": "¿Que tipo de producto adicional a una capa SIG podría generar como complemento del análisis?",
+      "despliegue": "¿Como puedo desarrollar una herramienta que sea de fácil aplicación al público general?"
+    }
+  },
+  {
+    "id": "05",
+    "slug": "05-monitoreo-satelital-anp-mexico",
+    "sala": 1,
+    "titulo": "Sistema Integral de Monitoreo Satelital para las ANP de México",
+    "proponentes": "Florencio García Jacinto",
+    "institucion": "Organización de las Naciones Unidas para la Alimentación y la Agricultura en colaboración con la Comisión Nacional de Áreas Naturales Protegidas",
+    "paises": [
+      "México"
+    ],
+    "correo": "Florencio.GarciaJacinto@fao.org",
+    "grupo_trabajo": "Cobertura, deforestación, cambio de uso y monitoreo forestal territorial",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Cambio de uso del suelo / cobertura",
+      "Conectividad ecológica",
+      "Otro",
+      "Tasas de Transformación de Hábitat"
+    ],
+    "problema": "Las Áreas Naturales Protegidas de México enfrentan procesos de transformación del paisaje derivados de cambios de uso de suelo, pérdida de cobertura forestal y fragmentación de hábitats, lo que puede comprometer la conectividad ecológica y la conservación de la biodiversidad. Aunque existe información ambiental disponible, no siempre se cuenta con herramientas que integren de manera sistemática el monitoreo de cobertura y uso de suelo y las tasas de transformación. Se requiere generar información espacial actualizada mediante Observación de la Tierra que permita identificar tendencias de cambio, evaluar el estado de conservación del territorio y apoyar la toma de decisiones para la gestión efectiva de las ANP.",
+    "relevancia": "Este problema es relevante para la CONANP porque limita la capacidad de evaluar de manera oportuna los cambios en la cobertura forestal y el estado de conservación de las Áreas Naturales Protegidas. La falta de información actualizada dificulta la identificación de zonas prioritarias para conservación, restauración y manejo, así como la evaluación de procesos de fragmentación y pérdida de conectividad ecológica. Contar con información espacial confiable y periódica permitirá fortalecer la toma de decisiones, optimizar recursos y mejorar las estrategias de conservación en la Selva Maya.",
+    "territorio": {
+      "referencia": "Áreas Naturales Protegidas que están dentro del Corredor Biocultural Gran Selva Maya (México)",
+      "punto_aproximado": "18.145852 -89.930487 0 0",
+      "latitud": "18.145852",
+      "longitud": "-89.930487",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "si",
+      "archivo_limites": "ANP de análisis-17_4_5.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784303619/attachments/attyq85xcD6dPDaWSSkZYEYa/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Área protegida; ONG / organización conservacionista; Proyecto de cooperación",
+      "descripcion": "Personal técnico de la Comisión Nacional de Áreas Naturales Protegidas (CONANP), incluyendo la Dirección de Evaluación y Seguimiento, Direcciones Generales, las Direcciones Regionales y los equipos técnicos de las Áreas Naturales Protegidas.",
+      "decision_apoyo": "Apoyar la priorización de acciones de conservación y restauración, identificar áreas con pérdida o transformación de cobertura forestal, y fortalecer la toma de decisiones para el manejo y monitoreo de las Áreas Naturales Protegidas."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Base de datos; Protocolo operativo",
+      "descripcion": "El producto esperado consiste en una herramienta de monitoreo que permita visualizar mapas de cobertura y uso de suelo, cambios multitemporales, tasas de transformación, cuerpos de agua y crecimiento urbano. Los usuarios podrán consultar indicadores espaciales, identificar áreas prioritarias para conservación o restauración, tendencias a lo largo del tiempo, descargar capas geográficas y utilizar la información para apoyar la gestión y el manejo de las Áreas Naturales Protegidas.",
+      "avance_presencial": "Integrar los avances existentes en un prototipo funcional que permita visualizar mapas de cobertura y uso de suelo, cambios detectados y tasas de transformación para las ANP de la Selva Maya, definiendo además el flujo metodológico y los requerimientos para su implementación operativa. Además, explorar la integración de métricas de estructura vertical de la vegetación proporcionados por la misión GEDI.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Dashboard; API / servicio de datos",
+      "forma_uso": "La solución sería utilizada a través de una plataforma web por personal técnico de la CONANP, Direcciones Regionales y equipos de las ANP para consultar mapas de cobertura y uso de suelo. Los resultados servirían para apoyar reuniones técnicas, procesos de planeación, monitoreo, conservación y restauración. La información podría descargarse para análisis complementarios, validarse mediante trabajo de campo y actualizarse periódicamente como parte de un sistema institucional de monitoreo satelital escalable a otras Áreas Naturales Protegidas del país",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "La solución está concebida desde sus inicios para operar bajo un esquema semiautomático de monitoreo satelital. Las clasificaciones de cobertura y uso de suelo, tasas de transformación y análisis asociados se actualizarían anualmente mediante el procesamiento de imágenes Sentinel-1 y Sentinel-2 en Google Earth Engine. En una etapa posterior, se prevé incorporar actualizaciones más frecuentes para ciertos indicadores y automatizar la publicación de resultados en la plataforma institucional. Además, se prevé integrar variables de calidad de Agua para las ANP Marinas."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus DEM; Agua / humedad / humedales; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Límites de las ANP de la Selva Maya, imágenes Sentinel-1 y Sentinel-2, puntos de entrenamiento y validación de cobertura y uso de suelo, mapas de cobertura existentes.",
+      "faltantes": "Se requieren campos de entrenamiento para el modelo.",
+      "documento_relacionado": "SIMSAT resumen-19_2_58.pdf",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784303619/attachments/atteni8LPQ3GkCKJSXh9S2rp/",
+      "enlace_externo": "https://experience.arcgis.com/experience/1b4e1ed1c07f48909b1ad6fbdc975038/"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Validación de campo; Integración con bases de datos; Visualización / tablero",
+      "flujo_imaginado": "Selección y procesamiento de imágenes Sentinel-1 y Sentinel-2 en Google Earth Engine; generación de muestras de entrenamiento y validación; clasificación supervisada de cobertura y uso de suelo mediante Random Forest; evaluación de precisión y generación de mapas multitemporales; cálculo de matrices de transición y tasas de transformación; integración de resultados en una plataforma de visualización para consulta, análisis y apoyo a la toma de decisiones en las ANP.",
+      "indices_algoritmos": "Sentinel-1 y Sentinel-2; índices espectrales (NDVI, NDWI, SAVI); variables radar (VV, VH, VH/VV, RVI); texturas GLCM; clasificación supervisada mediante Random Forest; matrices de transición y tasas de transformación (FAO 1996). Las herramientas consideradas incluyen Google Earth Engine, QGIS, ArcGIS Pro, Python, PostgreSQL/PostGIS y ArcGIS Experience Builder para el procesamiento, almacenamiento y visualización de la información.",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Cuál es la estrategia más adecuada para estandarizar la generación de muestras de entrenamiento (tamaño, cantidad y distribución espacial) en un sistema de monitoreo satelital que busca producir clasificaciones anuales de cobertura y uso de suelo para múltiples Áreas Naturales Protegidas?",
+      "areas_asesoria": "Metodología y análisis geoespacial; Sostenibilidad institucional",
+      "datos": "No indicado en la ficha",
+      "metodologia": "¿Es posible integrar datos Lidar de GEDI para complementar los análisis de cobertura y estructura forestal?¿Qué productos Copernicus podrían complementar las clasificaciones de cobertura y uso de suelo generadas con Sentinel-1 y Sentinel-2?\nPreguntas sobre sostenibilidad\n¿Qué elementos institucionales, técnicos y operativos son necesarios para garantizar que una herramienta de monitoreo satelital como SIMSAT pueda mantenerse y escalarse más allá del periodo de implementación del Clúster?",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "06",
+    "slug": "06-conectividad-calidad-habitat-selva-maya",
+    "sala": 1,
+    "titulo": "Analisis de la Conectividad Biológica, Calidad del habitat de la Selva Maya Región Selva Lacandona, Complejo Usumacinta-Wanha’",
+    "proponentes": "Nestor Muñoz Estudillo, Jesus Amado Constantino Goicochea",
+    "institucion": "Comisión Nacional de Áreas Naturales Protegida.",
+    "paises": [
+      "México"
+    ],
+    "correo": "nestor.munoz@conanp.gob.mx; ja.constantino@conanp.gob.mx",
+    "grupo_trabajo": "Conectividad biologica, calidad del habitat",
+    "sala_discusion": "Grupo 1",
+    "areas_tematicas": [
+      "Conectivdad estructural, Cambio de uso del suelo / cobertura",
+      "Restauración",
+      "Conectividad ecológica",
+      "Carbono y biomasa"
+    ],
+    "problema": "Debido a la fuerte presión que sufren el territorio por la expansión de las manchas urbanas, zonas agrícolas y ganaderas, así como los incendios forestales y el cambio climático, se han fragmentado los escosistemas de la región, perdiendo riqueza natural y como consecuencia, aislando las interconexiones entre las especies de flora y fauna, a su vez que pone en riesgo los servicios ecosistemicos hacia las poblaciones de la región.",
+    "relevancia": "No se cuenta con información actual y confiable del territorio, al mismo tiempo que la escala de trabajo es a poco detalle generalizando la información lo que propicia a una inadecuada toma de decisiones, gestión, manejo y aprovechamiento de los recursos naturales del territorio.",
+    "territorio": {
+      "referencia": "Selva Lacandona, Chiapas",
+      "punto_aproximado": "17.140726, -91.439578",
+      "latitud": "17.140726",
+      "longitud": "-91.439578",
+      "poligono_aproximado": "17.581194 -92.453157 0 0;17.916023 -91.882866 0 0;16.267414 -90.31518 0 0;16.151369 -91.315033 0 50;17.581194 -92.453157 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Productores / cooperativas; Academia/Centros de Investigación",
+      "descripcion": "Direcciones de Áreas Naturales Protegidas de la región Selva Lacandona, Complejo Usumacinta - Wanha’ , la Dirección Regional Frontera Sur, Istmo y Pacífico Sur y Diriección Regional Planicie Costera y Golfo de México.",
+      "decision_apoyo": "Priorizar las zonas de restauración, la conectividad entre las áreas naturales protegidas, ordenar el terretorio, identificar zonas vulnerables a impactos ambientales, planeación del territorio. Asimismo, hacer un buen manejo, gestión y uso de los recursos naturales (ecositemas y bienes), así como del territorio para el beneficio de las comunidades mediante la restauración del paisaje."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Dashboard / tablero; Visor web; Repositori de Datos",
+      "descripcion": "Una metodología que puedan entender los técnicos de las áreas naturales protegidas para una retroalimentación que conlleve a una mejora de los datos (usos de suelo, conectividad, áreas transfornadas, etc.), con el fín de poder realizar analisis de la situación del territorio lo más pronto posible y de manera precisa (hasta donde lo permitan los datos), para toma de desiciones y acciones que permitan un mejor manejo del territorio y por lo tanto, restaurar y conservar los recursos naturales. Creación de productos geoespaciales vectoriales y raster y una página geoweb para consulta y visualización.",
+      "avance_presencial": "Estructurar las bases de datos e isumos, desarrollo del flujo de trabajo, generación de los primeros scripts y obtención de mapa preliminar o capa demostrativa de la conectividad del territorio, con una temporalidad para el incio y fin de la temporada de lluvias, de cada año",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App, Qgis",
+      "forma_uso": "Consulta en linea, usado en reuniones de toma de desiciones con acompañamiento del personal técnico operativo, actualizado por personal institucional de las direcciones de las áreas naturales protegidas, validado en campo por personal de las direcciones de áreas naturales protegias, replicado en las demás regiones admnistrativas de la CONANP antes mencionadas.",
+      "requiere_actualizacion": "Sí, anual",
+      "descripcion_actualizacion": "Actualización de la cartografía y datos geospaciales para el monitoreo de la conectividad del paisaje."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Sentinel-3; Productos/índices de vegetación; Biomasa / carbono; Agua, humedad o humedales, copernicus land_cobertura del suelo",
+      "disponibles": "Cartografía de los usos de suelo y vegetación actuales del sitio de acuerdo a los tipos de vegetación que se utiliza en méxico, siendo precisos en la diferencia de los tipos de bosques y selvas y demás tipos de vegetación en la región, a una escala de 1:50,000 y 1:250,000",
+      "faltantes": "Datos de campo para los tipos de usos de suelo y vegetación, de radar o infrarrolo (capas) imágenes de alta resolución, datos de precipitación de las estaciones meteorológicas.",
+      "documento_relacionado": "Bosques de Chiapas-21_52_23.jpg",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783942041/attachments/attFhX3vvTPgdVUUgui2fXBe/",
+      "enlace_externo": "http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/usv/inegi/usv250s7gw"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura/uso; Detección de cambios; Métricas de paisaje / conectividad, Series Temporales, Validación con Datos de Campo",
+      "flujo_imaginado": "Seleciconar imágenes de satélite a comparar > Procesar en equipo de computo > Generación de Script > Visualización > Validación en Campo > Generación de capa > Retroalimentación/afinación > Publicación.",
+      "indices_algoritmos": "NDVI, NDMI, Clasificación Supervisada, métricas del paisaje, google earth engine, R Studio, Qgis, Python, Métricas del Paisaje, Árbol de decisiones y/o Mapa Lógico.",
+      "frecuencia_actualizacion": "Semestral (Inicio y Fin de temporada de lluvia)."
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Cual es la metodología e insumos necesarios para monitorear la calidad del habitat, conectividad y elaboración corredores biologicos?",
+      "areas_asesoria": "Metodología y análisis geoespacial; Validación de resultados; Sostenibilidad institucional y mantenimiento",
+      "datos": "No indicado en la ficha",
+      "metodologia": "¿Están bien los siguientes índices;? NDVI, Falso Color, SWIR, a una escala 1:50000 o 1:100000. ¿Se puede contar con imagenes semestrales, Imagenes Lidar y de alta resolución?",
+      "validacion": "¿Como se puede validar los script y los datos analizados? ¿cómo puedo validarlo los datos obtenidos con la información de campo?\nPreguntas sobre sostenibilidad\nSe busca capacitar al personal de las áreas naturales protegidas para que sean ellos los que se apropien del proyecto, para una actualización y supervición constante. De esta manera trabajar de manera coordinada con la dirección regional y así crear especialistas a nivel local y regional en el monitoreo satelital de las áreas naturales protegidas de méxico ¿Cómo se podría mantener a largo plazo y replicarlo en las demás regiones de los estados de Chiapas y Tabasco?",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "07",
+    "slug": "07-belize-heat-points-burn-scar",
+    "sala": 2,
+    "titulo": "Belize Heat Points and Burn Scar Mointoring",
+    "proponentes": "Anthony Morgan",
+    "institucion": "Belize Forest Department",
+    "paises": [
+      "Belice"
+    ],
+    "correo": "amorganbz@gmail.com",
+    "grupo_trabajo": "Alertas, MRV nacional, sistemas de monitoreo e incendios forestales",
+    "sala_discusion": "Grupo 2",
+    "areas_tematicas": [
+      "Incendios forestales"
+    ],
+    "problema": "We want to be able to monitor heat points and burn scars to reduce the impacts of wildfires and also Wildfire Urban Interface activities",
+    "relevancia": "It is important because we are having more loss of our  Forest due to wildfires an we are seeing more wildfires affect Urban communities",
+    "territorio": {
+      "referencia": "Biosfera Maya",
+      "punto_aproximado": "17.214264 -88.722359 0 0",
+      "latitud": "17.214264",
+      "longitud": "-88.722359",
+      "poligono_aproximado": "17.947381 -89.163039 0 0;18.521283 -88.72557 0 0;18.417079 -87.727499 0 0;15.855674 -88.255254 0 0;15.897942 -89.247869 0 0;17.947381 -89.163039 0 0",
+      "cuenta_limites": "No indicado en la ficha",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Proyecto de cooperación",
+      "descripcion": "Protected Area technical officers, Government technical officers",
+      "decision_apoyo": "Effective wildfire monitoring"
+    },
+    "producto": {
+      "tipo": "Mapa; Dashboard / tablero; Aplicación; Repositorio técnico",
+      "descripcion": "Be able to see map with area of interest, download/view sum of area burnt",
+      "avance_presencial": "No indicado en la ficha",
+      "nivel_acceso": "interno",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Formularios de campo; API / servicio de datos",
+      "forma_uso": "a combination of near real time data combined with updating based on ground-truthing  and results",
+      "requiere_actualizacion": "no_se",
+      "descripcion_actualizacion": "No indicado en la ficha"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Productos de incendios; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Protected Areas Boundaries",
+      "faltantes": "Wildfire Products/burnt Areas",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "https://maffesd.maps.arcgis.com/apps/dashboards/c52e52a59d0a456d880eee83a9be564d"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura / uso del suelo; Métricas de paisaje / conectividad; Validación de campo; Visualización / tablero",
+      "flujo_imaginado": "A workflow I would look at is to 1 visualize and analyze the areas if interest, groundtruthing activities point verification along with suppression activities if needed, analyze and visualize areas affected by Wildfires.",
+      "indices_algoritmos": "NBR dNBR, G.E.E. QGIS or ArcGIS",
+      "frecuencia_actualizacion": "semestral"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Using MODIS & VIIRS Active Fire Products heatpoints, using NBR dNBR to visualize burn scars, Interactive map layer, Severity classification, Alerts Validation module, combined eith groundtruthing validation",
+      "areas_asesoria": "Datos e insumos; Metodología y análisis geoespacial; Validación y control de calidad; Producto esperado y visualización",
+      "datos": "Copernicus Fire Monitoring, FIRMS data",
+      "metodologia": "Burn Area Index, Normalized Burn Ratio, Difference Normalized Burn Ratio",
+      "validacion": "Being that it is fire best validation procedure would be gps validation and photographic validation",
+      "producto": "A map along with visulaization of data via dashboard at minimum",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "08",
+    "slug": "08-historial-cicatrices-fuego-el-salvador",
+    "sala": 2,
+    "titulo": "Información historial de las cicatrices del fuego para realizar acciones de mitigación",
+    "proponentes": "AMILCAR ANTONIO LÓPEZ MELARA",
+    "institucion": "INSTITUTO DE PROMOCIÓN FORESTAL DE COREA (KOFPI)",
+    "paises": [
+      "El Salvador"
+    ],
+    "correo": "amilcarlopezkofpi@gmail.com",
+    "grupo_trabajo": "Alertas, MRV nacional, sistemas de monitoreo e incendios forestales",
+    "sala_discusion": "Grupo 2",
+    "areas_tematicas": [
+      "Incendios forestales"
+    ],
+    "problema": "Al no disponer de un historial de cicatrices del fuego en el territorio es difícil tomar decisiones (planes de prevención, control, restauración, etc.)  acertadas para contrarrestar estos siniestros y su impacto de daños.",
+    "relevancia": "Para determinar el impacto de las acciones de prevención y control que se realizan en el proyecto, es decir, se están rediciendo los fuegos con estas acciones, por otra parte, cuantificar las emisiones de CO2 evitadas por fuego.",
+    "territorio": {
+      "referencia": "Alotepeque-La Montañona es una de las áreas de conservación prioritarias más importantes de El Salvador, ubicada principalmente en la zona norte del departamento de Chalatenango",
+      "punto_aproximado": "14.125389 -88.931208 0 0",
+      "latitud": "14.125389",
+      "longitud": "-88.931208",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "si",
+      "archivo_limites": "Departamento Chalatenango-10_35_59.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784284575/attachments/att9335qXMUxXEMKGBSzngDg/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; ONG / organización conservacionista",
+      "descripcion": "Instituto de Promoción Forestal de Corea (KOFPI), Área de Recursos Forestales del MAG, Bomberos Forestales de El Salvador, Protección Civil, alcaldías: Chalatenango Norte, Chalatenango Centro y Chalatenango Sur.",
+      "decision_apoyo": "Elaborar planes y acciones más acertadas de prevención, control y restauración en zonas con más presencia de fuego para su mitigación, así como evaluar su impacto en las emisiones de CO2."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Formulario de campo; Base de datos; Protocolo operativo",
+      "descripcion": "Mapa espacial de cicatrices de fuego en el período 2015-2026",
+      "avance_presencial": "Definir metodología y sus protocolos, visor de mapa de cicatrices del fuego",
+      "nivel_acceso": "mixto",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Visor web; No estoy seguro/a",
+      "forma_uso": "Por gobiernos locales y central para sus planes de prevención, control y restauración de áreas dañadas por el fuego, medir impactos de las acciones de prevención y control de incendios forestales, cuantificar las emisiones de CO2 ocasionado por los fuegos y las emisiones evitadas por acciones de prevención y control de incendios forestales. Se pretende sea visible el mapa en visor Web y que las personas puedan bajar los datos para posprocesamiento de ostros temas.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Por medio de un técnico responsable que domine la metodología y protocolos, lo haría anual con pequeños ajustes de escrip o plataforma. Claro se logará hacerlo automatizado sería genial"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Sentinel-3; Productos de incendios; Productos de vegetación; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Registro espacial de algunos incendios forestales, límite de la zona de estudio, mapa de usos/cobertura del suelo 2016.",
+      "faltantes": "Registro de fuegos atendidos por Bomberos de El Salvador (se solicitará esta información), accesos a shapefile de https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html donde registran actividades de incendios históricos",
+      "documento_relacionado": "Incendios 2021_2024-14_46_47.zip",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784284575/attachments/attmRjNh6ziqt7GihaiFPnzn/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Detección de cambios; Validación de campo; Visualización / tablero",
+      "flujo_imaginado": "Selección de imágenes de cada año, pero antes de la época seca (enero) y después de esta época (abril) para obtener Clasificación de Reflectancia de Área Quemada, verificar y validar los resultados con datos reales de incendios conocidos-una vez afinado el mapa de incendios escribir metodología y protocolos, definir web donde presentar el mapa de cicatrices de incendios 2015-2026",
+      "indices_algoritmos": "Google Earth Engine, ARC Gis Pro, BARC (Burned Area Reflectance Classification), https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Definir la herramienta de que procese las imágenes satelitales de resolución menores a 30 m, afinar el índice de cálculo en imágenes satelitales para determinar áreas quemadas por año, definir plataforma o mecanismo de visualizar el mapa una vez elaborado y que el público pueda tener acceso para ver la información como bajar en diferentes formatos espaciales.",
+      "areas_asesoria": "Metodología y análisis geoespacial; Despliegue digital",
+      "datos": "No indicado en la ficha",
+      "metodologia": "Las descritas en este item",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "Las descritas en este item"
+    }
+  },
+  {
+    "id": "09",
+    "slug": "09-monitoreo-incendios-peten",
+    "sala": 2,
+    "titulo": "Monitoreo de incendios en áreas protegidas  del departamento de Petén",
+    "proponentes": "Alvin Mayen y Greysi Gonzalez",
+    "institucion": "CONAP",
+    "paises": [
+      "Guatemala"
+    ],
+    "correo": "greygonza@yahoo.es",
+    "grupo_trabajo": "Alertas, MRV nacional, sistemas de monitoreo e incendios forestales",
+    "sala_discusion": "Grupo 2",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Incendios forestales",
+      "Cambio de uso del suelo / cobertura",
+      "Restauración",
+      "Conectividad ecológica",
+      "Carbono y biomasa",
+      "Biodiversidad"
+    ],
+    "problema": "actualmente esa ocurriendo el avance de la frontera agricola, incendios forestales, cambio de uso del suelo, degradacion forestal,deforestacion, perdida de conectividad ecologica, crecimiento no contralado en areas protegidas. Se necesita un sistema de monitoreo automatizado para los tomadores de decisiones.",
+    "relevancia": "Este problema afecta directamente la conservación de la Reserva de la Biosfera Maya, ya que la falta de información oportuna limita la capacidad de respuesta ante la deforestación, incendios forestales y cambios de uso del suelo. Contar con un sistema automatizado de monitoreo fortalecerá la toma de decisiones, la protección de los recursos naturales y la planificación territorial basada en evidencia.",
+    "territorio": {
+      "referencia": "Reserva de la Biosfera Maya, Peten, Guatemala.",
+      "punto_aproximado": "17.245744 -89.974722 227 0",
+      "latitud": "17.245744",
+      "longitud": "-89.974722",
+      "poligono_aproximado": "17.790535 -90.985923 0 0;17.790535 -89.116657 0 0;15.876809 -89.157004 0 0;15.845105 -89.413446 0 0;16.024696 -89.513122 0 0;15.897942 -89.787978 0 0;16.014136 -90.106811 0 0;16.077486 -90.447632 0 0;16.415009 -90.403655 0 0;16.488765 -90.54658 0 0;16.60461 -90.62354 0 0;16.762468 -90.766465 0 0;16.85712 -90.920384 0 0;16.941215 -91.074304 0 0;17.025273 -91.184215 0 0;17.130292 -91.25014 0 0;17.161786 -91.360059 0 0;17.256236 -91.414991 0 0;17.298199 -90.953217 0 0;17.790535 -90.985923 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "SHAPE_PETEN-10_27_30.rar",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784256311/attachments/attzh8epRWQ9T6cPjTtv4sag/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; ONG / organización conservacionista; Academia; Productores / cooperativas; Proyecto de cooperación; Sector privado",
+      "descripcion": "CEMEC_CONAP",
+      "decision_apoyo": "Proveer información oportuna para la toma de decisiones sobre incendios forestales, permitiendo una respuesta rápida y eficiente por parte de los equipos técnicos y de control."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Dashboard / tablero; Visor web; Aplicación; Repositorio técnico",
+      "descripcion": "La herramienta permitirá visualizar áreas afectadas por incendios forestales, generar mapas temáticos, consultar estadísticas por período, descargar información geoespacial y apoyar la toma de decisiones para la prevención, control y restauración de áreas afectadas en la Reserva de la Biosfera Maya.",
+      "avance_presencial": "Identificar de manera oportuna las áreas afectadas por incendios forestales para priorizar acciones de control, evaluación de daños, restauración ecológica y monitoreo de la recuperación de la cobertura forestal",
+      "nivel_acceso": "mixto",
+      "componentes_despliegue": "Google Earth Engine App; Dashboard; Visor web; GeoServer u otro servidor geoespacial",
+      "forma_uso": "Se utilizaria reuniones tecnicas, instituciones, academia, tomadores de desiciones (gobierno)",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Se realizaria de forma semiautomatica de manera continua."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Sentinel-3; Copernicus Land Monitoring Service; Productos de incendios; Productos de vegetación; Límites locales / institucionales",
+      "disponibles": "Shape de limites nacionales, departamentales,municipales, asentamientos humanos dentro y fuera de areas protegidas, limites de areas protegidas, cuerpos de agua,rios, caminos y presencia interistitucional.",
+      "faltantes": "Datos geoespaciales de COPERNICOS.",
+      "documento_relacionado": "Informe_Incendios_2025-12_42_5.pdf",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784256311/attachments/att6exdUBg3KJxpXiBqZgSyt/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Validación de campo",
+      "flujo_imaginado": "Seleccion de imagenes (con el 30% de nubes),mascara de nubes,mosaico de imagenes seleccionadas, generacion de grid de las imagenes, seleccion de muestras, edicion manual (pixel editor), capa final. Quemado, no quemado.",
+      "indices_algoritmos": "Google Earth Engine,NDVI.",
+      "frecuencia_actualizacion": "continua"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "se busca la automatizacion el analisis  de cicatrices de forma inmediata y eficiente.",
+      "areas_asesoria": "Datos e insumos; Sostenibilidad institucional",
+      "datos": "Que se puede hacer en caso que no contemos con datos disponibles para la temporada de incidencia.\nPreguntas sobre sostenibilidad\nExiste un acuerdo interistitucional desde el año  2025, donde Google Earth Engine, es la  herramienta oficial para elaborar los informes de incendios para el gobierno de Guatemala.",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "10",
+    "slug": "10-deteccion-temprana-cambio-uso-suelo",
+    "sala": 2,
+    "titulo": "Sistema de Detección Temprana de Cambio de Uso de Suelo",
+    "proponentes": "Antonio Clemente",
+    "institucion": "Asociación Nacional para la Conservación de la Naturaleza (ANCON)",
+    "paises": [
+      "Panamá"
+    ],
+    "correo": "antonio.clemente@ancon.org",
+    "grupo_trabajo": "Alertas, MRV nacional, sistemas de monitoreo e incendios forestales",
+    "sala_discusion": "Grupo 2",
+    "areas_tematicas": [
+      "Deforestación",
+      "Cambio de uso del suelo / cobertura",
+      "Monitoreo comunitario"
+    ],
+    "problema": "La deforestación ilegal amenaza la biodiversidad y servicios ecosistémicos de uno de los bosques tropicales más ricos del mundo en Darién, Panamá. Identificar los casos de deforestación oportunamente representa un condición habilitadora para atender los ilícitos y motivar a las comunidades a transaccionar de prácticas extractivas a métodos productivas sostenibles.",
+    "relevancia": "ANCON cuenca con décadas trabajando en Darién y actualmente labora para impulsar la transformación de medios de vida necesaria para consolidar un modelo económico compatible con la sostenibilidad de la riqueza ecosistémica de la provincia.",
+    "territorio": {
+      "referencia": "Darien",
+      "punto_aproximado": "8.391254 -77.873767 0 100",
+      "latitud": "8.391254",
+      "longitud": "-77.873767",
+      "poligono_aproximado": "7.258167 -77.928319 0 0;8.046798 -78.491496 0 0;8.868014 -78.521853 0 0;9.150135 -78.038565 0 0;8.629127 -77.412436 0 0;7.933338 -77.126798 0 0;7.48775 -77.552411 0 0;7.258167 -77.928319 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Organización liderada por mujeres; ONG / organización conservacionista; Academia; Productores / cooperativas; Proyecto de cooperación",
+      "descripcion": "MiAMBIENTE, Municipios de Pinogana, Chepigna y Santa Fe, actores locales, academia",
+      "decision_apoyo": "planificar inspecciones (MiAMBIENTE), reportar impacto, incidir en presionar autoridades y actores locales en tomar acción para proteger los bosques y combatir la deforestación"
+    },
+    "producto": {
+      "tipo": "Flujo de trabajo; Reporte; Visor web; Aplicación; Repositorio técnico",
+      "descripcion": "Los polígonos de sitios deforestadas con vistas de las imágenes, presentados de manera accionable y dinámica por medio de un visor web que contenga todo el creciente conjunto de productos y análisis derivados (superficie, cuenca, área protegida, uso de suelo anterior al cambio, etc.), también reportes estáticos generados automáticamente",
+      "avance_presencial": "algoritmo de machine learning entrenado para identificar deforestación en imágenes RGB de muy alta resolución",
+      "nivel_acceso": "publico",
+      "componentes_despliegue": "Google Earth Engine App; Visor web; GeoServer u otro servidor geoespacial",
+      "forma_uso": "El visor sería consultado en línea por funcionarios y ciudadanos, a la vez que reportes estáticos serían creados y enviados automáticamente a autoridades.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Esta por definirse que tan automático termina siendo todo el flujo - cada vez que se agrega una imagen nueva se deben determinar los casos de cambio de uso de suelo y generar y enviar los reportes"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Otro; imágenes WorldView y Legion reconstruidas de image tiles RGB",
+      "disponibles": "si, muchos",
+      "faltantes": "No indicado en la ficha",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "https://experience.arcgis.com/experience/f0e853b4ffba4280b9472b40056af0c7/"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Detección de cambios",
+      "flujo_imaginado": "Ya tenemos flujo para descarga y reconstrucción de imágenes de alta resolución. También tenemos experiencia haciendo aplicaciones web con ArcGIS Online. Lo que nos falta es un flujo que use polígonos de entrenamiento para delimitar cambios. No creo que una clasificación tradicional (segmentación, clasificación supervisada) sea lo mejor, por la alta resolución de las imágenes, falta de bandas y por el hecho que los valores de píxel no son reflectancia pura.",
+      "indices_algoritmos": "Machine learning en GEE o ArcGIS",
+      "frecuencia_actualizacion": "continua"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Qué herramientas de machiene learning pueden funcionar para esta aplicación, como se entrenan considerando que las imágenes varían en radiometría y tonalidad y como se corren o integran a un flujo en GEE o ArcGIS",
+      "areas_asesoria": "Metodología y análisis geoespacial",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "11",
+    "slug": "11-monitoreo-cobertura-cicatrices-valle-nuevo",
+    "sala": 2,
+    "titulo": "Clúster Copernicus Centroamérica AFOLU II Monitoreo de la cobertura forestal y cicatrices de incendio en el Parque Nacional Valle Nuevo",
+    "proponentes": "Ana Cristina Moreno",
+    "institucion": "Ministerio de Medio Ambiente y Recursos Naturales",
+    "paises": [
+      "República Dominicana"
+    ],
+    "correo": "ana.moreno@ambiente.gob.do",
+    "grupo_trabajo": "Alertas, MRV nacional, sistemas de monitoreo e incendios forestales",
+    "sala_discusion": "Grupo 2",
+    "areas_tematicas": [
+      "Degradación forestal",
+      "Incendios forestales",
+      "Cambio de uso del suelo / cobertura"
+    ],
+    "problema": "La expansión de la frontera agrícola y las prácticas de quema no controlada están provocando la degradación de la cobertura forestal y el aumento de incendios forestales en el Parque Nacional Valle Nuevo.",
+    "relevancia": "El Parque Nacional Valle Nuevo forma parte de la zona núcleo de la Reserva de Biósfera Madre de las Aguas, por ser origen de importantes ríos del país. Actualmente enfrenta problemáticas ambientales que ponen en riesgo su biodiversidad y su rol como regulador hídrico, por lo que contar con herramientas de monitoreo geoespacial permitiría fortalecer la priorización de restauración y la vigilancia de incendios en áreas protegidas.",
+    "territorio": {
+      "referencia": "Parque Nacional Valle Nuevo",
+      "punto_aproximado": "18.801798 -70.624973 0 0",
+      "latitud": "18.801798",
+      "longitud": "-70.624973",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "Sí",
+      "archivo_limites": "Parque Nacional Valle Nuevo-16_13_59.kmz",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784992894/attachments/attYxHAQAJh8TMk3CThHSPyY/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Academia",
+      "descripcion": "La Unidad de Monitoreo Forestal del Ministerio de Medio Ambiente y la Dirección de Información Ambiental y Recursos Naturales (DIARENA).",
+      "decision_apoyo": "Priorizar la restauración de los bosques, así como monitorear incendios forestales en las áreas protegidas."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Script; Flujo de trabajo; Dashboard / tablero; Visor web; Aplicación; Base de datos; Repositorio técnico",
+      "descripcion": "El producto esperado consiste en una herramienta geoespacial que permita realizar análisis multicriterio mediante el cálculo de índices como NDVI y NBR a partir de series temporales de imágenes satelitales. Asimismo, integrará capas de información ambiental, incluyendo rangos de pendiente, uso y cobertura del suelo, áreas protegidas, cuencas hidrográficas y otras variables relevantes.",
+      "avance_presencial": "Generar los primeros scripts, flujo de análisis, visor básico y estructura inicial de base de datos.",
+      "nivel_acceso": "Institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Visor web; Base de datos; API / servicio de datos",
+      "forma_uso": "Los usuarios entrarían mediante un visor web, ArcGIS Dashboard, GEE App o portal institucional.",
+      "requiere_actualizacion": "Sí",
+      "descripcion_actualizacion": "Manual en el caso de cargar una capa específica para el análisis multicriterio y semiautomática para el cálculo de los índices."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos de incendios / áreas quemadas; Productos/índices de vegetación; Agua, humedad o humedales; Límites locales / institucionales",
+      "disponibles": "Capa de los límites de áreas protegidas, Mapa de Uso y Cobertura de Suelo año 2022, capa de rangos de pendiente y datos del Inventario Nacional Forestal.",
+      "faltantes": "No indicado en la ficha",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Detección de cambios; Series temporales; Visualización / dashboard",
+      "flujo_imaginado": "Definir las variables ambientales y territoriales que influirán en el análisis multicriterio, establecer el período de análisis, seleccionar las imágenes satelitales en Google Earth Engine, integrar las capas de información ambiental, generar el script, procesar y calcular los índices para cada fecha seleccionada, visualizar los resultados y publicar la herramienta en un entorno institucional (ArcGIS Enterprise o GEE App).",
+      "indices_algoritmos": "NDVI, NDMI, NBR, dNBR, clasificación supervisada, Google Earth Engine y Survey123.",
+      "frecuencia_actualizacion": "Por evento"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Qué metodología recomiendan para detectar cambios recientes de cobertura forestal en mi territorio? ¿Qué método puedo aplicar para el análisis multicriterio?",
+      "areas_asesoria": "Alcance y delimitación del problema; Metodología y análisis geoespacial\nPreguntas sobre alcance\n¿Qué parte de mi idea debería priorizarse para la jornada presencial?",
+      "datos": "No indicado en la ficha",
+      "metodologia": "¿Qué escala espacial o temporal sería más adecuada?",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "12",
+    "slug": "12-paso-del-puma",
+    "sala": 3,
+    "titulo": "Paso del Puma",
+    "proponentes": "Manuel Safrirh Morales Salazar",
+    "institucion": "Asociación de Organizaciones del Corredor Biológico Talamanca Caribe",
+    "paises": [
+      "Costa Rica"
+    ],
+    "correo": "safrirhforestal@gmail.com",
+    "grupo_trabajo": "Conectividad, restauración, biodiversidad y áreas protegidas",
+    "sala_discusion": "Grupo 3",
+    "areas_tematicas": [
+      "Cambio de uso del suelo / cobertura",
+      "Conectividad ecológica",
+      "Biodiversidad",
+      "Monitoreo comunitario"
+    ],
+    "problema": "Determinamos que el Puma (Puma concolor cougar) es una especie sombrilla para el Caribe Sur de Costa Rica, y una expresión de la conectividad funcional y estructural del paisaje entre las áreas silvestres protegidas, territorios indígenas y bosques privados sometidos a pago por servicios ambientales y protección voluntaria. Queremos crear una plataforma dinámica que permita monitorear en tiempo casi real la cobertura forestal, índices de fragmentación y conectividad del paisaje, para tomar crear una base de información que facilite la toma de decisiones de conservación, fortalecer los procesos de ordenamiento territorial, conservación y manejo del paisaje.",
+    "relevancia": "Es relevante por que forma parte de nuestra visión y misión de nuestra organización: \"El Corredor Biológico Talamanca Caribe mantiene ecosistemas funcionales que favorecen la provisión de servicios ecosistémicos clave para la producción sostenible, el bienestar de la población y el respeto a la diversidad cultural.\" Mantener, monitorear y gestionar el paso del puma engloba muchas acciones que permiten el funcionamiento de los ecosistemas para el bienestar de la comunidades del Caribe costarricense.",
+    "territorio": {
+      "referencia": "Corredor Biológico Talamanca Caribe",
+      "punto_aproximado": "9.656939 -82.820414 100 1",
+      "latitud": "9.656939",
+      "longitud": "-82.820414",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "si",
+      "archivo_limites": "paso_puma_area_influencia-16_9_36.kml",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782988828/attachments/attrECwYKVvZsGu4DxifJFfy/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; ONG / organización conservacionista",
+      "descripcion": "Equipo técnico del programa de conservación y pago por servicios ambientales del Corredor Biológico Talamanca Caribe.",
+      "decision_apoyo": "Priorizar áreas de conservación de bosques, aumentar el precio del programa pago por servicios ambientales en áreas de alta biodiversidad, establecer y mantener rutas de conectividad del paisaje, apoyar los procesos de educación ambiental y ordenamiento territorial."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Base de datos; Repositorio técnico",
+      "descripcion": "Un visor de datos SIG con métricas de cobertura de bosques, índices de conectividad y fragmentación, puntos de detección de fauna silvestre y puma.",
+      "avance_presencial": "Flujo de análisis, primer script, mapa preliminar, estructura inicial de datos",
+      "nivel_acceso": "por_definir",
+      "componentes_despliegue": "Google Earth Engine App; Dashboard; Visor web; Base de datos; Dominio/subdominio; GeoServer u otro servidor geoespacial; API / servicio de datos; Geoportal institucional",
+      "forma_uso": "Utilizado en reuniones técnicas, compartido con comunidades indígenas, instituciones de gobierno",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Anual semiautomática"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Sentinel-3; Copernicus Land Monitoring Service; Productos/índices de vegetación; Agua, humedad o humedales; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Límites de áreas silvestres protegidas, territorios indígenas, puntos de detección de fauna silvestre con cámaras trampa, distribución de especies de flora, capas de ríos, capas curvas de nivel, índices de huella humana, condición estructural de los bosques e integridad del paisaje",
+      "faltantes": "índices de conectividad actualizados en función de la cobertura actual",
+      "documento_relacionado": "ANTEPROYECTO RUTA PASO DEL PUMA 2025 CORREGIDO-16_23_25.pdf",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782988828/attachments/attrGji9s8gja84uvHjV4ZRk/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Índices de vegetación; Clasificación de cobertura/uso; Detección de cambios; Series temporales; Métricas de paisaje / conectividad; Análisis de riesgo; Validación de campo; Integración con bases de datos; Visualización / dashboard",
+      "flujo_imaginado": "Seleccionar imágenes, calcular índices, validar datos, generar capas, visualizar mapas, crear plataformas o tableros",
+      "indices_algoritmos": "Cobertura forestal, índices de conectividad y mapas, Google Earth Engine, QGIS, Global Forest Wacht",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Que metodología recomiendan para mantener actualizados índices de conectividad en función de datos satelitales y de campo producto de cámaras trampa.",
+      "areas_asesoria": "Alcance y delimitación del problema; Datos e insumos; Metodología y análisis geoespacial; Validación de resultados; Producto esperado / diseño del entregable; Despliegue digital\nPreguntas sobre alcance\n¿Qué parte de mi idea debería priorizarse para la jornada presencial?",
+      "datos": "¿Qué datos Copernicus o Sentinel serían más adecuados para mi caso?",
+      "metodologia": "¿Qué índices, algoritmos o flujos de trabajo podrían ser útiles para mi idea?",
+      "validacion": "¿Cómo puedo validar los resultados con información de campo o datos institucionales?\nPreguntas sobre producto esperado\n¿Mi producto debería ser un mapa, una capa, un indicador, un tablero, un visor o una aplicación?\nPreguntas sobre despliegue digital\n¿Cómo puedo pasar de un análisis en Google Earth Engine a una herramienta que otros puedan usar?",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "13",
+    "slug": "13-copernicus-biodiversidad-conectividad",
+    "sala": 3,
+    "titulo": "Integración de datos Copernicus y biodiversidad para el análisis de conectividad ecológica en el Gran Bosque La Amistad",
+    "proponentes": "Oscar Barrantes Angulo",
+    "institucion": "Centro Científico Tropical",
+    "paises": [
+      "Regional / varios países: Costa Rica - Panamá"
+    ],
+    "correo": "inv_cusingos@cct.or.cr",
+    "grupo_trabajo": "Conectividad, restauración, biodiversidad y áreas protegidas",
+    "sala_discusion": "Grupo 3",
+    "areas_tematicas": [
+      "Restauración",
+      "Conectividad ecológica",
+      "Biodiversidad",
+      "Monitoreo comunitario"
+    ],
+    "problema": "El Gran Bosque La Amistad, compartido entre Costa Rica y Panamá, alberga ecosistemas de alta importancia para la biodiversidad y la conectividad ecológica regional; sin embargo, enfrenta presiones asociadas a cambios de uso del suelo, fragmentación del paisaje y posibles afectaciones sobre especies dependientes del bosque. Aunque existen esfuerzos de monitoreo biológico impulsados por organizaciones locales, áreas protegidas y brigadas comunitarias, actualmente la información sobre biodiversidad y conectividad del paisaje suele encontrarse dispersa y poco integrada para apoyar decisiones territoriales. Se requiere mejorar el acceso a información espacial que permita identificar áreas prioritarias de conectividad ecológica relevantes para especies focales de aves y mamíferos, fortaleciendo así procesos de monitoreo, conservación y restauración del paisaje.",
+    "relevancia": "Este problema es relevante porque el territorio del Gran Bosque La Amistad concentra ecosistemas prioritarios para la conservación de la biodiversidad y la conectividad ecológica regional, donde diversas organizaciones, áreas protegidas y brigadas comunitarias realizan esfuerzos de monitoreo y gestión del paisaje. La ausencia de información espacial integrada y oportuna puede limitar la capacidad para priorizar sitios de conservación, orientar esfuerzos de monitoreo, identificar corredores ecológicos relevantes o detectar áreas que requieren restauración. Contar con mejores herramientas de análisis contribuiría a fortalecer decisiones de manejo territorial y conservación basadas en evidencia.",
+    "territorio": {
+      "referencia": "Gran Bosque de La Amistad. Zonas de amortiguamiento del Parque Internacional La Amistad Costa Rica - Panamá, Parque Nacional Chirripó, donde gran parte de la información de biodiversidad es recabada por Brigadas Comunitarias de Monitoreo Participativo y Organizaciones de relacionadas con monitoreo de la biodiversidad o restauración de los ecosistemas.",
+      "punto_aproximado": "9.293693 -83.294946 0 1",
+      "latitud": "9.293693",
+      "longitud": "-83.294946",
+      "poligono_aproximado": "No indicado en la ficha",
+      "cuenta_limites": "no_se",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Organización liderada por mujeres; ONG / organización conservacionista; Academia; Proyecto de cooperación; Sector privado",
+      "descripcion": "La solución estaría orientada principalmente a equipos técnicos y actores vinculados al monitoreo y conservación del Gran Bosque La Amistad, incluyendo brigadas comunitarias del proyecto Guardianes de la Cordillera, personal técnico de áreas protegidas del PILA y corredores biológicos asociados, así como instituciones responsables de gestión y conservación como SINAC en Costa Rica y organizaciones aliadas de conservación en Panamá. También podría apoyar procesos de toma de decisiones en proyectos regionales de monitoreo de biodiversidad y restauración del paisaje.",
+      "decision_apoyo": "La aplicación buscaría apoyar la toma de decisiones relacionadas con la priorización de áreas para monitoreo biológico, conservación y restauración ecológica dentro del Gran Bosque La Amistad. En particular, permitiría identificar zonas relevantes para la conectividad ecológica de especies focales de aves y mamíferos, orientar esfuerzos de monitoreo participativo, fortalecer la priorización de corredores ecológicos y apoyar decisiones de manejo territorial basadas en evidencia espacial."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Script; Flujo de trabajo; Formulario de campo; Base de datos; Repositorio técnico",
+      "descripcion": "Se espera desarrollar un producto piloto de análisis espacial que permita visualizar e interpretar áreas prioritarias de conectividad ecológica relevantes para especies focales de aves y mamíferos dentro del Gran Bosque La Amistad. El usuario final podría consultar mapas temáticos de cobertura forestal, conectividad del paisaje y registros de biodiversidad integrados, así como identificar zonas prioritarias para monitoreo, conservación o restauración. Dependiendo de la factibilidad técnica, el producto podría incluir capas geoespaciales descargables, indicadores básicos y visualizaciones de apoyo para la toma de decisiones territoriales.",
+      "avance_presencial": "Durante la jornada presencial se esperaría lograr un prototipo preliminar del flujo de análisis, incluyendo la delimitación del área piloto, recopilación e integración inicial de datos satelitales (Copernicus/Sentinel) y registros abiertos de biodiversidad, así como la generación de mapas preliminares de cobertura forestal y conectividad ecológica para especies focales. Asimismo, se buscaría establecer una metodología base y una estructura inicial del producto para continuar su fortalecimiento durante la fase de acompañamiento tutelado.",
+      "nivel_acceso": "publico",
+      "componentes_despliegue": "Google Earth Engine App; Visor web; Base de datos; Formularios de campo; GeoServer u otro servidor geoespacial; API / servicio de datos",
+      "forma_uso": "Se espera que la solución sea utilizada principalmente como una herramienta de apoyo técnico para procesos de monitoreo, conservación y gestión territorial en el Gran Bosque La Amistad. El producto podría ser consultado y utilizado en reuniones técnicas para priorizar sitios de monitoreo, identificar áreas relevantes para conectividad ecológica y orientar acciones de conservación o restauración. Asimismo, las capas y mapas generados podrían compartirse entre organizaciones aliadas, áreas protegidas y brigadas comunitarias, con potencial de validación en campo e incorporación progresiva de nuevos datos de biodiversidad para fortalecer el análisis a futuro.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "De manera preliminar, se imagina una actualización semiautomática y periódica (por ejemplo, anual o por temporada de monitoreo), incorporando nuevas imágenes satelitales disponibles del Programa Copernicus y registros actualizados de biodiversidad provenientes de plataformas abiertas y monitoreo participativo. Inicialmente, el proceso podría requerir revisión y actualización manual de algunas capas y validación técnica, con potencial de evolucionar hacia flujos más automatizados conforme se consolide la metodología y disponibilidad de datos."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos/índices de vegetación; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Se cuenta con acceso a diversos insumos espaciales y de campo relevantes para el desarrollo de la aplicación, incluyendo límites de áreas protegidas, corredores biológicos y capas biofísicas disponibles (elevación, hidrografía, cobertura forestal y red vial). Además, existen registros de biodiversidad provenientes de monitoreo biológico participativo (aves y mamíferos), cámaras trampa, observaciones de campo y fotografías georreferenciadas generadas por organizaciones y brigadas vinculadas a Guardianes de la Cordillera. También se prevé complementar con registros abiertos disponibles en plataformas como GBIF, eBird e iNaturalist, según disponibilidad y calidad de datos.",
+      "faltantes": "Sería necesario identificar y consolidar algunas capas y metodologías específicas para el análisis de conectividad ecológica, incluyendo posibles métricas de paisaje, capas regionales actualizadas de cobertura forestal y herramientas apropiadas para integrar datos de biodiversidad con información satelital. Asimismo, se requiere orientación sobre el acceso y procesamiento de productos Copernicus más adecuados para este tipo de análisis, así como criterios para priorizar escalas espaciales y especies focales según la factibilidad técnica del ejercicio.",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Índices de vegetación; Detección de cambios; Métricas de paisaje / conectividad",
+      "flujo_imaginado": "El flujo de trabajo preliminar iniciaría con la delimitación del área piloto y recopilación de insumos espaciales disponibles. Posteriormente, se seleccionarían y procesarían imágenes satelitales de Copernicus (Sentinel-2) para generar capas relacionadas con cobertura forestal, uso del suelo y métricas básicas de conectividad ecológica. De forma paralela, se recopilarían y depurarían registros abiertos de biodiversidad (GBIF, eBird, iNaturalist) y, cuando sea posible, datos de monitoreo participativo para especies focales de aves y mamíferos. Finalmente, se integrarían las capas de paisaje y biodiversidad para identificar patrones espaciales y generar mapas preliminares de áreas prioritarias de conectividad ecológica, orientados a apoyar decisiones de monitoreo, conservación y restauración.",
+      "indices_algoritmos": "De manera preliminar, se considera el uso de índices de vegetación como NDVI para caracterizar cobertura y condición de la vegetación, así como posibles métricas de paisaje orientadas a evaluar conectividad ecológica, fragmentación y configuración del hábitat. También podrían explorarse herramientas de clasificación de cobertura del suelo y análisis espacial utilizando imágenes Sentinel-2 del Programa Copernicus. Entre las herramientas potenciales se incluyen QGIS, Google Earth Engine y plataformas de datos abiertos de biodiversidad (GBIF, eBird e iNaturalist), según factibilidad técnica y alcance del ejercicio.",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Qué metodología y herramientas serían más apropiadas para integrar datos satelitales Copernicus con registros abiertos de biodiversidad, a fin de evaluar conectividad ecológica y priorizar áreas relevantes para especies focales de aves y mamíferos en un paisaje complejo como el Gran Bosque La Amistad?",
+      "areas_asesoria": "Alcance y delimitación del problema; Datos e insumos; Metodología y análisis geoespacial; Validación de resultados; Producto esperado / diseño del entregable; Despliegue digital; Sostenibilidad institucional y mantenimiento\nPreguntas sobre alcance\n¿Cuál sería el alcance espacial y metodológico más realista para desarrollar un producto funcional durante el proceso formativo, considerando la complejidad del Gran Bosque La Amistad? ¿Qué variables o métricas de conectividad ecológica deberían priorizarse para un producto mínimo viable orientado a especies focales de aves y mamíferos? ¿Cuál sería la mejor estrategia para integrar registros abiertos de biodiversidad (GBIF, eBird, iNaturalist) con datos satelitales Copernicus de manera técnicamente robusta y factible?",
+      "datos": "¿Qué productos Copernicus o datos Sentinel serían más apropiados para evaluar conectividad ecológica y caracterizar cobertura forestal en un paisaje montañoso y transfronterizo como el Gran Bosque La Amistad? ¿Qué tipo de métricas de paisaje o variables ambientales adicionales (elevación, pendiente, hidrografía, fragmentación, distancia a bordes, etc.) sería recomendable incorporar para especies focales de aves y mamíferos? ¿Qué criterios de calidad y filtrado se recomiendan para integrar registros abiertos de biodiversidad (GBIF, eBird e iNaturalist) de manera confiable en este tipo de análisis?",
+      "metodologia": "¿Qué metodologías o flujos de análisis geoespacial serían más apropiados para evaluar conectividad ecológica en un paisaje complejo y montañoso como el Gran Bosque La Amistad? ¿Qué índices, métricas de paisaje o algoritmos podrían ser más útiles para integrar cobertura forestal y registros de biodiversidad de especies focales de aves y mamíferos? ¿Cuál sería la escala espacial y temporal más adecuada para desarrollar un producto mínimo viable, manteniendo un balance entre factibilidad técnica y utilidad para la toma de decisiones?",
+      "validacion": "Qué estrategias de validación serían recomendables para contrastar los resultados del análisis de conectividad ecológica con información de biodiversidad disponible en campo? ¿Cómo podrían integrarse registros provenientes de monitoreo participativo, cámaras trampa y observaciones de aves para fortalecer la validación del producto? ¿Qué criterios permitirían evaluar si las áreas identificadas como prioritarias para conectividad ecológica son consistentes y útiles para la toma de decisiones en conservación y monitoreo?\nPreguntas sobre producto esperado\nConsiderando el alcance y factibilidad del proyecto, ¿qué tipo de producto sería más recomendable como resultado mínimo viable: mapas temáticos, capas geoespaciales, indicadores de conectividad, un visor simple o un flujo de análisis replicable? ¿Cuál sería la forma más útil de visualizar los resultados para que puedan ser interpretados y utilizados por equipos técnicos, áreas protegidas y brigadas de monitoreo? ¿Qué nivel de complejidad y detalle sería recomendable para que el producto sea técnicamente sólido, pero al mismo tiempo práctico y fácilmente actualizable a futuro?\nPreguntas sobre despliegue digital\n¿Cuál sería la estrategia más factible para compartir o implementar el producto de manera que pueda ser utilizado por equipos técnicos, áreas protegidas y organizaciones aliadas (por ejemplo: visor web, capas descargables, reportes o tableros simples)? ¿Qué herramientas o plataformas serían más recomendables para pasar de un análisis geoespacial preliminar a un producto práctico y fácilmente consultable por otros usuarios? ¿Qué nivel de infraestructura técnica (hosting, repositorios, bases de datos o automatización) sería realmente necesario para un producto piloto escalable y sostenible a futuro?\nPreguntas sobre sostenibilidad\n¿Qué elementos institucionales y técnicos serían necesarios para que el producto pueda mantenerse y actualizarse más allá del proceso formativo, evitando que quede únicamente como un ejercicio piloto? ¿Qué actores o unidades técnicas sería recomendable involucrar desde etapas tempranas para favorecer la adopción y sostenibilidad de la herramienta dentro del territorio del Gran Bosque La Amistad? ¿Cómo podría integrarse progresivamente este producto dentro de procesos existentes de monitoreo de biodiversidad, conservación y gestión territorial impulsados por organizaciones locales, áreas protegidas y brigadas comunitarias?",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "14",
+    "slug": "14-conectividad-ganaderia-rio-platano",
+    "sala": 3,
+    "titulo": "Conectividad del Paisaje y Ganadería Sostenible en la Biosfera del Río Plátano (Algo como GeoConnect-RP)",
+    "proponentes": "Alexandra Maribel Manueles; Andrea Massiel Lopez Salinas y Erick Mauricio Figueroa Santin",
+    "institucion": "Universidad Zamorano",
+    "paises": [
+      "Guatemala"
+    ],
+    "correo": "amanueles@zamorano.edu",
+    "grupo_trabajo": "Conectividad, restauración, biodiversidad y áreas protegidas",
+    "sala_discusion": "Grupo 3",
+    "areas_tematicas": [
+      "Restauración",
+      "Conectividad ecológica",
+      "Carbono y biomasa",
+      "Agricultura",
+      "Ganadería"
+    ],
+    "problema": "Conectividad del Paisaje y Ganadería Sostenible en la Biosfera del Río Plátano (Algo como GeoConnect-RP)",
+    "relevancia": "Para la institución es relevante porque sería la primera vez realizando una aplicación con nuevas plataformas y fortalecerá los procesos de formación y de investigación. Para el territorio de la Biosfera será relevante porque aportaría a las nuevas intervenciones que se sigan desarrollando en la zona. Intervenciones que irán de la mano con la conectividad y no se trabajará de forma aislada, todo con la finalidad de contribuir a la restauración y a la ganadería sostenible como medio de vida de la zona de amortiguamiento de la Biosfera.",
+    "territorio": {
+      "referencia": "Biosferá del Río Platano parte de la Mosquitia",
+      "punto_aproximado": "15.259503 -85.383395 650 0",
+      "latitud": "15.259503",
+      "longitud": "-85.383395",
+      "poligono_aproximado": "15.285289 -85.437713 0 0;15.293237 -85.296945 0 0;15.174647 -85.342946 0 0;15.172658 -85.4693 650 0;15.285289 -85.437713 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "Zona de interes-14_47_0.kmz",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783914045/attachments/attGCDhuCtf2kQGjkSpRrPtM/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Academia; Proyecto de cooperación",
+      "descripcion": "Organizaciones donantes, organizaciones actuales y potenciales que tienen el rol de ejecutoras de proyectos en la zona de la Biosfera del Río Plátano, entidades de gobierno (ICF, SERNA, SAG y otros afines), entidades que certifican la ganadería sostenible y baja en emisiones, entidades que monitorean las emisiones, ganaderos de la zona, autoridades de base local, autoridades municipales, investigadores, estudiantes y otros actores con interés en la restauración de la Biosfera.",
+      "decision_apoyo": "El impacto esperado es fortalecer la toma de decisiones basada en información geoespacial para la gestión integrada del paisaje en la Biosfera del Río Plátano, articulando conservación y producción ganadera sostenible."
+    },
+    "producto": {
+      "tipo": "Flujo de trabajo; Reporte; Aplicación",
+      "descripcion": "Según lo que hemos visto en las sesiones sería interesante ver en la zona de trabajo la cantidad de hectáreas por usos y coberturas, algunos indices de vegetación en una fecha definida. Algunos indicadores de fragmentación y de conectividad del paisaje para priorizar intervenciones. También, no estaría demás estimar el carbono en biomasa considerando los usos y coberturas de la plataforma de Copernicus Chile o usando los usos y coberturas que se identifiquen en una clasificación propia. Por otro lado, podría ser interesante verificar algunos datos con algunas imágenes de dron que se tengan de la zona.",
+      "avance_presencial": "Sería la primera vez trabajando con otras plataformas más eficientes en manejo de datos. Esperaríamos tener un flujo de procesos o metodología definida e incluso un primer script preliminar con alguna plataforma que los asesores estimen conveniente.",
+      "nivel_acceso": "por_definir",
+      "componentes_despliegue": "No estoy seguro/a",
+      "forma_uso": "Consultando si hay o no potencial para desarrollar acciones de intervención que fortalezcan la restauración de la Biosfera bajo un escenario de ganadería tradicional.",
+      "requiere_actualizacion": "no_se",
+      "descripcion_actualizacion": "No indicado en la ficha"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos/índices de vegetación; Biomasa / carbono",
+      "disponibles": "1. Ubicación en polígonos de fincas ganaderas apoyadas en el proyecto MiBiosfera. 2. Limites de los municipios de interés. 3. Shapefile de carreteras para las fincas de interés. 4. Documentos de proyectos de investigación de cambios de usos y coberturas en fincas ganaderas. 5. Documentos con algunas estimaciones de carbono almacenado en el suelo. 6. Algunas imágenes de dron de algunas fincas.",
+      "faltantes": "1. Imágenes actuales de dron, se tiene el dron multiespectral pero no los fondos para visitas de campo.",
+      "documento_relacionado": "Imagen de un análisis geospacial para priorizar áreas de intervención-15_20_0.png",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783914045/attachments/att6sLsQZ2Xd7KpcWGRRyoU5/",
+      "enlace_externo": "Que se pueda ver algo cómo esto para la zona de interes: https://land.copernicus.eu/en/map-viewer?product=40b946a9f39f401bae69d25edab45e33"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura/uso; Métricas de paisaje / conectividad; Validación de campo; No estoy seguro/a",
+      "flujo_imaginado": "1. Seleccionar las imágenes sentinel 2 de una fecha en específico. Por ejemplo, después de la intervención del proyecto MiBiosfera. 2. Clasificar los usos y coberturas o usar los usos y coberturas del producto de Copernicus Chile. 3. Calcular el carbono en la biomasa forestal, así como se explicó en un script que ya han generado en Google Earth Engine. 3. Calcular algunos índices de vegetación, almenos el NDVI. 4. Incluir algunas métricas de fragmentación y de conectividad.",
+      "indices_algoritmos": "Google Earth Engine QGIS NDVI Clasificación supervisada",
+      "frecuencia_actualizacion": "evento"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "La asesoría más grande es la parte técnica del desarrollo.",
+      "areas_asesoria": "Alcance y delimitación del problema; Metodología y análisis geoespacial; Producto esperado / diseño del entregable; Despliegue digital\nPreguntas sobre alcance\nPara la jornada presencial debería de priorizar en realizar algún ejemplo corto de script para entender cómo funciona. Sabemos manejar información geográfica desde programas como QGIS y ArcGIS pero no en Google Earth Engine por medio de notebook. Almenos un ejemplo script corto para leer las imágenes sentinel 2 de 10 m y cómo calcular algún índice de vegetación para la zona de interés.",
+      "datos": "No indicado en la ficha",
+      "metodologia": "Explorar más sobre algunos indicadores de fragmentación y de conectividad que podrían estar relacionados en la priorización de áreas a intervir para mejorar la conectividad.\nPreguntas sobre producto esperado\nCuáles con las diferencias entre tablero, visor y aplicación?. Dado que es la primera en el desarrollo de productos de consulta, sería interesante partir por el uso del que sea más viable.\nPreguntas sobre despliegue digital\nEs la misma pregunta. ¿Cómo puedo pasar de un análisis en Google Earth Engine a una herramienta que otros puedan usar? ¿Necesito GitHub, hosting, base de datos o visor web?",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "15",
+    "slug": "15-alerta-temprana-plaga-musaceas",
+    "sala": 4,
+    "titulo": "Monitoreo de alerta temprana de plaga en musáceae",
+    "proponentes": "Roberto Durán Acuña y Mauricio Gutiérrez Aoki",
+    "institucion": "Ministerio de Agricultura y Ganadería",
+    "paises": [
+      "Costa Rica"
+    ],
+    "correo": "mgutierrez@mag.go.cr",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura, carbono, plataformas y despliegue digital",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Agricultura",
+      "Monitoreo comunitario"
+    ],
+    "problema": "Necesitamos generar un alerta temprana para plagas en el cultivo de musáceae, específicamente la identificación de la plaga Ralstonia solanacearum (raza 2), por medio de SENTINEL 2 o valorar algún otro medio.",
+    "relevancia": "Es una enfermedad bacteriana más destructiva que afecta a los cultivos de banano y plátano y que está presente en Costa Rica y es necesario tener una solución de controlarla y erradicarla.",
+    "territorio": {
+      "referencia": "Región Huetar Caribe",
+      "punto_aproximado": "10.309515 -83.542619 0 0",
+      "latitud": "10.309515",
+      "longitud": "-83.542619",
+      "poligono_aproximado": "10.52832 -83.875227 0 0;10.34194 -83.855996 0 0;10.275735 -83.722138 0 0;10.248709 -83.623297 0 0;10.16356 -83.522458 0 0;10.133821 -83.401261 0 0;10.168967 -83.29732 0 0;10.474308 -83.555724 0 0;10.544521 -83.723386 0 0;10.52832 -83.875227 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Gobierno local; Productores / cooperativas",
+      "descripcion": "Técnicos y Profesionales Fitosanitarios del MAG.",
+      "decision_apoyo": "Planes de acción más puntuales y esfuerzos más canalizados para su control y erradicación."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Script; Flujo de trabajo; Dashboard / tablero; Formulario de campo; Base de datos",
+      "descripcion": "Identificación de bandas por medio de las imágenes SENTINEL 2 para identificar los focos positivos de la plaga y replicarlo en otras áreas o sectores del país.",
+      "avance_presencial": "Se espera tener una base de diferentes o posibles combinaciones de bandas para identificar dicha plaga.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Visor web; Base de datos; GeoServer u otro servidor geoespacial; API / servicio de datos",
+      "forma_uso": "Por ahora sería a nivel institucional.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Utilización de otros imágenes o medio de obtener mejor precisión de identificación de la plaga."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Productos de vegetación; Agua / humedad / humedales; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Datos propios del monitoreo de la plaga presente por medio de la geolocalización de la plaga.",
+      "faltantes": "Qué imagen de SENTINEL es factible identificar el comportamiento de esta plaga.",
+      "documento_relacionado": "MAPA_MOKO_2022_NACIONAL-11_22_47.pdf",
+      "url_documento": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784244670/attachments/attfdhDcorBWaGpnfVeB2MX9/",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Métricas de paisaje / conectividad; Análisis de riesgo; Validación de campo; Integración con bases de datos; Visualización / tablero",
+      "flujo_imaginado": "Con base a los puntos de referencia de la identificación de los puntos positivos de la plaga, buscar las imágenes en SENTINEL, revisar los diferentes índices de vegetación, validar en campo, generar la capa shp.",
+      "indices_algoritmos": "Probar todos los índices de vegetación, Google Earth Engine, QGIS.",
+      "frecuencia_actualizacion": "mensual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Por donde iniciar en hacer las diferentes pruebas de las imágenes y de los índices de vegetación.",
+      "areas_asesoria": "Alcance y producto mínimo viable; Metodología y análisis geoespacial; Validación y control de calidad; Despliegue digital\nPreguntas sobre alcance\nSi por medio de las imágenes SENTINEL es posible generar la identificación de la plaga.",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No tenemos ninguna metodología. Empezar de cero.",
+      "validacion": "Cuando se logre obtener un primer acercamiento del resultado propuesto, iniciar con las respectivas validaciones, tanto campo como escritorio.",
+      "producto": "No indicado en la ficha",
+      "despliegue": "Cuál sería la mejor manera de visualizar el resultado obtenido y su divulgación hacia los técnicos fitosanitarios para su gestión pronta en el campo."
+    }
+  },
+  {
+    "id": "16",
+    "slug": "16-monitoreo-plantaciones-forestales-teledeteccion",
+    "sala": 4,
+    "titulo": "Monitoreo de plantaciones forestales mediante teledetección y aprendizaje profundo",
+    "proponentes": "Mauricio Vega-Araya",
+    "institucion": "Universidad Nacional, Costa Rica.",
+    "paises": [
+      "Costa Rica"
+    ],
+    "correo": "mauricio.vega.araya@una.cr",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Cambio de uso del suelo / cobertura"
+    ],
+    "problema": "En Costa Rica, las plantaciones forestales cumplen funciones productivas, económicas y ambientales; sin embargo, su monitoreo depende frecuentemente de inventarios de campo que requieren tiempo, personal especializado y recursos económicos. Esto dificulta conocer de manera continua su extensión, condición, crecimiento, aprovechamiento y posibles alteraciones. El sector forestal en Costa Raica requiere información actualizada que facilite la planificación y la toma de decisiones. Aunque existen fuentes nacionales e internacionales de información geoespacial como mapas de tipos de bosques (coberturas arbóreas), estos no necesariamente permiten identificar con precisión las características particulares de las plantaciones forestales, siendo fuente de constante confusión con clases similares como bosques y plantaciones de café con sombra, por ejemplo. Con la ayuda de la series temporales satelitales y el aprendizaje profundo, se podría automatizar la identificación y evaluación de plantaciones forestales; no obstante, es necesario determinar su precisión, capacidad de generalización y dependencia de datos de entrenamiento representativos de las condiciones forestales costarricenses. Pregunta central: ¿En qué medida la teledetección y los modelos de aprendizaje profundo permiten monitorear con precisión y de forma periódica las plantaciones forestales de Costa Rica? Objetivo: Construir una serie cronológica anual de mapas de cobertura de plantaciones forestales en Costa Rica.",
+    "relevancia": "El Laboratorio de Teledetección de Ecosistemas del INISEFOR-UNA ha colaborado en la elaboración de los mapas de tipos de bosque y otras tierras de Costa Rica desarrollados por el SINAC. Estos productos constituyen una fuente oficial para la caracterización y el monitoreo de la cobertura forestal nacional y se encuentran disponibles mediante los servicios geoespaciales del SNIT. No obstante, uno de los aspectos que requiere fortalecimiento es la separabilidad espectral y temporal de las plantaciones forestales respecto de otras coberturas arbóreas, particularmente los bosques naturales y los sistemas agroforestales. Esta dificultad puede generar confusiones durante los procesos de clasificación y afectar la precisión temática de los mapas. Por ello, la generación de una capa nacional de plantaciones forestales, actualizable anualmente mediante series temporales de imágenes satelitales y modelos de aprendizaje profundo, podría funcionar como información auxiliar para futuras actualizaciones de los mapas de tipos de bosque. Además, permitiría identificar cambios asociados con el establecimiento, crecimiento, aprovechamiento y sustitución de las plantaciones.",
+    "territorio": {
+      "referencia": "Gran Bosque: Costa Rica",
+      "punto_aproximado": "9.983728 -84.027096 1200 1",
+      "latitud": "9.983728",
+      "longitud": "-84.027096",
+      "poligono_aproximado": "11.199957 -82.461939 0 0;11.199957 -86.341996 0 0;7.732765 -86.047786 0 0;7.623887 -82.156948 1300 1;11.199957 -82.461939 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "gadm41_CRI.gpkg-15_38_12.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783245244/attachments/attTwauTqwcgGtk5DeJh9pgF/"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Organización liderada por mujeres; ONG / organización conservacionista; Academia; Productores / cooperativas; Proyecto de cooperación; Sector privado; Otro; Otro: Todo tipo de usuario que necesite información sobre plantaciones forestales",
+      "descripcion": "Todo tipo de usuario que necesite información sobre plantaciones forestales",
+      "decision_apoyo": "Se pretente apoyar a las instituciones nacionales responsables de la generación de estadísticas y mapas oficiales."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Reporte; Dashboard / tablero; Visor web; Base de datos; Repositorio técnico",
+      "descripcion": "El producto esperado consiste en un sistema para el monitoreo anual de las plantaciones forestales de Costa Rica mediante teledetección y modelos de aprendizaje profundo. Incluirá un mapa nacional y capas geoespaciales anuales que permitan identificar, delimitar y consultar la distribución de las plantaciones forestales, así como diferenciarlas de bosques naturales, sistemas agroforestales y otras coberturas arbóreas. Las capas generadas estarán organizadas en una base de datos geoespacial y podrán visualizarse, consultarse y descargarse mediante un visor web y un tablero interactivo. El sistema permitirá explorar estadísticas por año y unidad territorial, comparar cambios temporales y consultar información sobre superficie, localización y nivel de confianza de la clasificación. Asimismo, se generarán reportes automatizados con los principales resultados del monitoreo. Los datos, metadatos y códigos utilizados para el procesamiento, entrenamiento, validación y actualización de los modelos se organizarán en un repositorio institucional, con el propósito de facilitar la reproducibilidad y la actualización periódica del producto. Los resultados podrán utilizarse como información auxiliar para mejorar la separabilidad de las plantaciones forestales en futuras actualizaciones de los mapas de tipos de bosque y otras tierras de Costa Rica elaborados por el SINAC.",
+      "avance_presencial": "Una estrategia para el balanceo de muestras, ajustes por región y un primer filtrado. Colecciones y mosaicos a utilizar. Iniciar la configuración de una red neuronal.",
+      "nivel_acceso": "publico",
+      "componentes_despliegue": "Repositorio GitHub; Dashboard",
+      "forma_uso": "Como una capa georeferenciada, con sus respectivos metadatos que se puede descargar libremente.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Año a año."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus DEM; Productos/índices de vegetación; Límites locales / institucionales",
+      "disponibles": "Se utilizarán diversas fuentes que ya poseo.",
+      "faltantes": "Por ahora todo está",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Radar / SAR; Clasificación de cobertura/uso; Series temporales",
+      "flujo_imaginado": "El flujo inicia con la generación de un mosaicos anuales de imágenes satelitales. A partir de este insumo, la clase de cobertura se modela por separado mediante procesos de clasificación y filtros espaciales y temporales. Esta etapa requiere varias iteraciones para balancear las muestras, incorporar diferencias regionales y ajustar los filtros. Sobre un primer producto se calculan las transiciones entre años y se aplican filtros espaciales para reducir errores, eliminar ruido y resolver conflictos de falsos positivos, etc. La integración se revisa entre tres y cinco veces, ajustando reglas generales y específicas para mejorar las estimaciones. Finalmente, se calculan las estadísticas de superficie y se realiza la evaluación de exactitud. Los resultados se incorporan a una base de datos y se publican mediante un visor web o tablero interactivo. El sistema se actualizaría anualmente con nuevas imágenes, datos de referencia, modelos y herramientas, apoyando futuras versiones de los mapas de tipos de bosque de Costa Rica.",
+      "indices_algoritmos": "En principio se usará Random Forest y posterioremente alguna red neuronal.",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Cómo configurarar y cuál red neuronal es la adecuada para resolver el problema planteado.",
+      "areas_asesoria": "Otros\nOtras preguntas\nCómo configurarar y cuál red neuronal es la adecuada para resolver el problema planteado.",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "17",
+    "slug": "17-estimacion-cosecha-cafe-guatemala",
+    "sala": 4,
+    "titulo": "Optimización de la estimación de cosecha de café en Guatemala",
+    "proponentes": "Marco Fernando Rodríguez Barco",
+    "institucion": "ANACAFÉ",
+    "paises": [
+      "Guatemala"
+    ],
+    "correo": "marco.frb@anacafe.org",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura, carbono, plataformas y despliegue digital",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Agricultura"
+    ],
+    "problema": "Actualmente se estima la cosecha nacional con un método basado en muestreo en campo, conocimiento de experto y ciencia de datos, la precisión actual puede mejorar con datos de observación de la tierra relacionando índices de vegetación con el estado del cultivo y la productividad de los mismos.",
+    "relevancia": "La estimación de la cosecha es una de las métricas mas importantes para el sector café en Guatemala, permite tener claridad de la producción nacional, estimar la productividad de las áreas, detectar oportunidades de mejora en la producción de café y tomar medidas.",
+    "territorio": {
+      "referencia": "376 mil Hectáreas hectáreas de café que constituyen el 3.5% del territorio guatemalteco.",
+      "punto_aproximado": "14.59017 -90.518533 1500 15",
+      "latitud": "14.59017",
+      "longitud": "-90.518533",
+      "poligono_aproximado": "16.981147 -89.18063 0 0;15.948653 -89.180679 0 0;16.113375 -88.54633 0 0;15.923299 -88.216646 0 0;15.680163 -88.304578 0 0;15.016953 -89.179943 0 0;14.613352 -89.158307 0 0;13.718574 -90.191463 0 0;13.95326 -90.652987 0 0;13.95326 -91.158442 0 0;14.145098 -91.729829 0 0;14.528288 -92.25725 0 0;15.144248 -92.081329 0 0;15.335048 -92.257166 0 0;16.138705 -91.751634 0 0;16.066929 -90.439376 0 0;16.518259 -90.476813 0 0;16.897069 -90.872447 0 0;17.065187 -90.08118 0 0;16.981147 -89.18063 0 0",
+      "cuenta_limites": "No indicado en la ficha",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Gobierno local; Comunidad / pueblos indígenas; Organización liderada por mujeres; Productores / cooperativas; Otro; Todos los productores de café y staff de ANACAFÉ",
+      "descripcion": "Unidad de inteligencia de cosecha del departamento de Transferencia de tecnología de ANACAFÉ.",
+      "decision_apoyo": "Medidas para la optimización de la producción de café."
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Aplicación; Base de datos",
+      "descripcion": "Una aplicación web con la estimación ajustada con datos de observación de la tierra.Una herramienta para determinar la cantidad y ubicación óptimas de puntos de muestreo.",
+      "avance_presencial": "1. base de conocimiento de indices sobre estado de cultivo.2. Primer versión de flujo de trabajo3. Primer visor de métricas.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Base de datos; GeoServer u otro servidor geoespacial; API / servicio de datos; Geoportal institucional; Otro; Ecosistema de ESRI ArcGIS Enterprise",
+      "forma_uso": "a travez de una aplicación experience builder o una de Google earth engine",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "Entrenar el modelo con mas datos de campo, buscar mejorar el nivel de detalle de las estimaciones a nivel de unidad productiva."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos de vegetación; Agua / humedad / humedales; Límites locales / institucionales; Otro; mapa de climatología ajustado con estaciones.",
+      "disponibles": "Datos de muestras de campo, historico de cosecha, selección de áreas piloto, mapa de café 1:5000",
+      "faltantes": "historico de estimación de cosecha",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Validación de campo; Integración con bases de datos",
+      "flujo_imaginado": "Analisis de datos anteriores de estimación, comparación con indices, definir el aporte de los indices, optimizar estiamción de cosecha.",
+      "indices_algoritmos": "No indicado en la ficha",
+      "frecuencia_actualizacion": "semestral"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Como podemos relacionar los datos de la observación de la tierra con información de campo para optimizar la estimación de cosecha que ya tenemos?",
+      "areas_asesoria": "Alcance y producto mínimo viable; Datos e insumos; Metodología y análisis geoespacial; Validación y control de calidad; Producto esperado y visualización; Despliegue digital\nPreguntas sobre alcance\nPodemos  agregar otros datos de referencia para aumentar la serie temporal de validación, aunque no tengan la escala y método identico a los datos de crop tour?",
+      "datos": "podemos correr el ejercicio a escala nacional, considerando que el área con café nacional es el 3.5% de Guatemala con un buffer llegaría a un 7%?",
+      "metodologia": "Podríamos relacionar con algoritmos de machine learning la información de campo con datos de observación de la tierra, que indicere podrían funcionar mejor?",
+      "validacion": "podríamos tomar muestras en una epoca diferente a los datos que tengamos para validar el modelo?",
+      "producto": "¿Podríamos hacer una primera visualización utilizando google earht engine y despues replicarla en Experience Builder de ESRI?",
+      "despliegue": "Podriamos crear un aplicativo móvil con ESRI experience builder para que los productores metan datos de su finca y les devuelva una estimación?"
+    }
+  },
+  {
+    "id": "18",
+    "slug": "18-verificacion-cacao-libre-deforestacion",
+    "sala": 4,
+    "titulo": "Verificación de Parcelas de Cacao Libre de Deforestación",
+    "proponentes": "Nikte' Alejandra Cú Chén",
+    "institucion": "FUNDALACHUA/ECOLASA",
+    "paises": [
+      "Guatemala"
+    ],
+    "correo": "niktechen@gmail.com",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura, carbono, plataformas y despliegue digital",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Cambio de uso del suelo / cobertura",
+      "Cadenas de suministro / EUDR",
+      "Monitoreo comunitario"
+    ],
+    "problema": "ECOLASA exporta cacao proveniente de asociaciones de pequeños productores miembros de FUNDALACHUA (que es el ente que consolida todo el cacao procesado para la venta), por ello es importante cumplir con el Reglamento de la Unión Europea contra la Deforestación (EUDR), el cual exige demostrar que el grano no proviene de tierras deforestadas después del 31 de diciembre de 2020. Aunque se cuenta con el polígono de las parcelas, no se tiene una herramienta para cruzar de manera automatizada estos polígonos con los mapas de cobertura forestal e histórico de pérdida de bosque.Se requiere mejor información, integrada y visualmente clara, para que los técnicos puedan identificar alertas tempranas de riesgo y realizar un análisis de debida diligencia de forma eficiente.",
+    "relevancia": "No contar con información oportuna y herramientas de verificación espacial generaría consecuencias como tener un alto riesgo de rechazo de los cargamentos en los puertos de la Unión Europea, además, la falta de este monitoreo impide orientar de manera estratégica los esfuerzos de gobernanza poscosecha y los incentivos de conservación hacia las zonas que muestran mayor vulnerabilidad o presión sobre el bosque.",
+    "territorio": {
+      "referencia": "Selva Maya y Eco región Lachuá, Guatemala",
+      "punto_aproximado": "15.847417 -90.713626 0 0",
+      "latitud": "15.847417",
+      "longitud": "-90.713626",
+      "poligono_aproximado": "15.836848 -90.739174 0 0;15.830572 -90.706046 0 0;15.855013 -90.701642 0 0;15.864425 -90.728016 0 0;15.836848 -90.739174 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "CENTROS DE ACOPIO Coordenadas-8_19_24.pdf",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784562875/attachments/attSPeT8TXumYmo6dRBUJHDh/"
+    },
+    "usuarios_finales": {
+      "tipo": "Comunidad / pueblos indígenas; Productores / cooperativas",
+      "descripcion": "Equipo técnico de monitoreo de las asociaciones y exportadora.",
+      "decision_apoyo": "Esta aplicación permitirá decidir qué lotes de cacao cumplen con los requisitos ambientales para ser consolidados y exportados hacia la Unión Europea bajo la norma EUDR, reduciendo el riesgo legal y comercial. También ayudará a identificar de forma temprana aquellas parcelas que presentan alertas de deforestación despues del 2020, permitiendo a los equipos técnicos enfocar sus esfuerzos de validación directamente en esas zonas dudosas antes de comprometer la compra del producto."
+    },
+    "producto": {
+      "tipo": "Mapa; Reporte",
+      "descripcion": "Poder cargar los polígonos de las parcelas de cacao y obtener automáticamente dos resultados:1. Un mapa donde se visualicen los polígonos de las parcelas sobrepuestos con las capas de cobertura forestal de Copernicus a diciembre de 2020. 2. Un reporte descargable en PDF que actúe como constancia de debida diligencia para cada productor. Este reporte debe incluir los datos básicos de la finca, las coordenadas/área analizada, el gráfico del análisis espacial y una conclusión automatizada y clara que indique si se detectó o no deforestación bajo el criterio de la norma EUDR.",
+      "avance_presencial": "Consolidar el flujo de análisis espacial y un mapa preliminar demostrativo, es decir, definir claramente cuáles son las capas específicas de Copernicus (por ejemplo, de pérdida de bosque o uso de suelo) que se deben emplear para el cruce de datos, establecer la lógica del análisis geográfico para la fecha de corte de diciembre de 2020 y diseñar el bosquejo o estructura inicial del reporte automatizado que generaría el sistema.",
+      "nivel_acceso": "mixto",
+      "componentes_despliegue": "Google Earth Engine App; Visor web; Base de datos; Formularios de campo; GeoServer u otro servidor geoespacial",
+      "forma_uso": "Los técnicos de la organización de productores ingresarían a la plataforma para cargar los polígonos de las parcelas y consultar el mapa. Desde allí, descargarían el reporte analítico automatizado en PDF para adjuntarlo como constancia física y legal en los expedientes de exportación.También se utilizaría para fines comerciales para definir qué lotes de cacao están listos y aprobados para la venta, y cuáles requieren atención prioritaria.En caso de que el sistema arroje una alerta de riesgo, los técnicos llevarán el mapa al territorio para verificar directamente con los productores si se trata de un falso positivo o si requiere un plan de mitigación forestal.La base de datos de las parcelas sería actualizada periódicamente por la unidad técnica de la organización a medida que se incorporen nuevos productores a la cadena de valor.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "con visitas y consultas de los poligonos de manera anual por parte de los técnicos, esto se hace para la aplicación e inspeccion interna y externa para la Certificación orgánica."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Copernicus Land Monitoring Service; No estoy seguro/a",
+      "disponibles": "Se trabajará con dos áreas: 1. Eco región Lachua, Cobán, Alta Verapaz (con colindancia con el Parque Nacional Lachuá, que es área protegida)2. Aldea Aguapaque, San Luis, Petén (es parte de Selva Maya)",
+      "faltantes": "1. Identificar cuáles son los productos o mapas específicos del Copernicus  o del ecosistema de satélites Sentinel que tengan la resolución y precisión adecuada para el territorio (Lachuá y Petén) con fecha de corte a diciembre de 2020.2. Orientación sobre qué algoritmos o flujos de análisis espacial ya validados dentro del marco AFOLU se recomiendan para procesar y automatizar el cruce de información (polígono de la finca vs. mapa de cobertura forestal) para asegurar que el dictamen sea confiable y evitar falsos positivos.",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "https://drive.google.com/file/d/1ixsfhjA0mdLPFSP_zdgHL2KH05XGNLRz/view?usp=drive_link"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Clasificación de cobertura / uso del suelo; Detección de cambios; Validación de campo; Integración con bases de datos; Visualización / tablero",
+      "flujo_imaginado": "1. Ingresar y preparar datos (polígonos, base de datos de productores)2. Cargar en la plataforma los polígonos georreferenciados de las parcelas de cacao 3. Definir la línea base (Diciembre 2020)4. Consultar e integrar las capas de cobertura forestal y uso de suelo de Copernicus para establecer el estado del bosque a la fecha establecida5. Procesar y detectar cambios6. Realizar un cruce espacial automatizado (análisis de superposición) entre el polígono de la parcela y las alertas de pérdida de cobertura arbórea o cambios de uso de suelo ocurridos entre 2021 y la fecha actual.7. Clasificar y validar el riesgo 8. Evaluar el porcentaje de coincidencia o afectación dentro del polígono9. Asignar una categoría de riesgo según el cumplimiento de la norma EUDR 10. Visualización y salida de resultados11. Publicación del resultado en el visor geográfico interactivo12. Generar de manera automatizada del reporte analítico en PDF con el dictamen de debida diligencia listo para descargar.",
+      "indices_algoritmos": "1. Herramientas de escritorio y nube: QGIS (para la visualización de control y preparación de capas locales) y Google Earth Engine o la plataforma Copernicus 2. Métodos de clasificación supervisada o semiautomatizada para delimitar las coberturas de bosque, y algoritmos de detección de cambios basados en la comparación de fechas.3. Índices de vegetación para monitorear el estado y densidad de la cobertura de bosque que puedan indicar degradación o tala.4. Captura de datos para la recopilación o validación de polígonos y datos atípicos directamente en campo.",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Qué producto o capa de Copernicus tiene la resolución espacial y temporal idónea para validar con precisión la línea base de bosque a diciembre de 2020 en mi territorio, reduciendo al mínimo los falsos positivos en parcelas de cacao?Qué herramientas de Copernicus y metodologías de detección de cambios me recomiendan utilizar para verificar si ha existido deforestación post-2020 dentro de los polígonos de mis parcelas",
+      "areas_asesoria": "Datos e insumos; Metodología y análisis geoespacial; Validación y control de calidad; Producto esperado y visualización",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  },
+  {
+    "id": "19",
+    "slug": "19-seguimiento-territorial-proyectos-natura",
+    "sala": 4,
+    "titulo": "Plataforma institucional para el seguimiento territorial de proyectos, riesgos ambientales y restauración prioritaria",
+    "proponentes": "Keysis Fowler y Julissa Guevara",
+    "institucion": "Fundación para la conservación de los recursos naturales (NATURA)",
+    "paises": [
+      "Panamá"
+    ],
+    "correo": "julissa.guevaravega@gmail.com",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura, carbono, plataformas y despliegue digital",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Deforestación",
+      "Incendios forestales",
+      "Cambio de uso del suelo / cobertura",
+      "Restauración",
+      "Conectividad ecológica",
+      "Biodiversidad",
+      "Monitoreo comunitario"
+    ],
+    "problema": "Los proyectos de conservación y restauración se desarrollan en territorios dinámicos, donde factores como los incendios forestales, los cambios en la cobertura vegetal y la fragmentación del paisaje pueden modificar las condiciones del área incluso después de implementadas las intervenciones. Sin embargo, el seguimiento de estos procesos suele depender de información almacenada en diferentes bases de datos, informes técnicos, hojas de cálculo y plataformas independientes, dificultando su consulta y análisis de manera integrada. Actualmente, la organización se encuentra fortaleciendo la gestión de su información institucional; no obstante, persiste la necesidad de incorporar herramientas que permitan vincular esta información con datos geoespaciales actualizados y fuentes de monitoreo ambiental de consulta frecuente. Esto permitiría evaluar de forma más eficiente el comportamiento de las áreas de intervención, identificar posibles amenazas y detectar zonas donde podrían requerirse acciones complementarias de restauración o seguimiento. La disponibilidad de información centralizada contribuirá a mejorar el monitoreo de los proyectos, facilitar la elaboración de reportes periódicos y disponer de criterios técnicos más sólidos para priorizar actividades de conservación, restauración y manejo del territorio.",
+    "relevancia": "Este problema es relevante porque la organización gestiona múltiples proyectos de conservación, restauración y manejo sostenible en diferentes territorios, cada uno con características ambientales y necesidades de seguimiento particulares. A medida que aumenta la cantidad de información generada por estos proyectos, se vuelve más importante contar con mecanismos que permitan consolidarla, actualizarla y consultarla de forma eficiente. La falta de información oportuna y centralizada dificulta identificar cambios que puedan estar ocurriendo en las áreas de intervención, como incendios forestales, pérdida de cobertura boscosa o afectaciones en zonas de importancia para la conectividad ecológica. Asimismo, incrementa el tiempo requerido para recopilar información dispersa, elaborar reportes periódicos y evaluar el estado de los territorios donde se ejecutan las acciones de conservación y restauración. Disponer de información actualizada permitirá fortalecer el seguimiento de los proyectos, mejorar la capacidad de respuesta ante posibles amenazas y facilitar la priorización de acciones de monitoreo, conservación y restauración en función de las condiciones observadas en el territorio.",
+    "territorio": {
+      "referencia": "Cuenca Hidrográfica del Canal de Panamá",
+      "punto_aproximado": "8.969052 -79.952886 0 0",
+      "latitud": "8.969052",
+      "longitud": "-79.952886",
+      "poligono_aproximado": "9.089109 -80.342847 0 0;8.868792 -80.202897 0 0;8.779794 -79.919164 0 0;8.98168 -79.65029 0 0;9.166104 -79.461147 0 0;9.343962 -79.342472 0 0;9.528214 -79.38079 0 0;9.474025 -79.699569 0 0;9.089109 -80.342847 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "Cuenca_Canal_de_Panama-16_24_1.zip",
+      "url_limites": "https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/784289751/attachments/attjpWzRp4oMxhnFuzDKNqy3/"
+    },
+    "usuarios_finales": {
+      "tipo": "ONG / organización conservacionista",
+      "descripcion": "Fundación NATURA",
+      "decision_apoyo": "Monitoreo y priorización de áreas restauradas"
+    },
+    "producto": {
+      "tipo": "Mapa; Capa geoespacial; Indicador; Script; Flujo de trabajo; Reporte; Dashboard / tablero; Visor web; Aplicación; Base de datos; Repositorio técnico",
+      "descripcion": "Una plataforma de monitoreo territorial que permita visualizar en un solo lugar las subcuencas de la Cuenca Hidrográfica del Canal de Panamá, sus áreas de intervención y el estado de los territorios donde se desarrollan proyectos de conservación y restauración. El usuario podrá consultar información geoespacial actualizada, monitorear cambios en la cobertura boscosa, visualizar alertas de incendios, identificar posibles afectaciones en corredores de conectividad ecológica y detectar áreas con potencial para acciones de restauración.Asimismo, permitirá visualizar areas de interés, gráficos e informes para el seguimiento de proyectos y la elaboración de reportes periódicos, facilitando el análisis de información ambiental y la toma de decisiones basada en evidencia. La información estará centralizada y organizada para que los equipos técnicos puedan consultar, interpretar y utilizar los datos de manera más eficiente, utilizando las subcuencas como unidad de análisis para el monitoreo territorial.",
+      "avance_presencial": "Se espera contar con un primer script funcional, una capa demostrativa y un visor básico que permita visualizar las subcuencas de la Cuenca Hidrográfica del Canal de Panamá junto con información territorial relevante, estableciendo la estructura inicial para la integración de indicadores ambientales y de monitoreo.",
+      "nivel_acceso": "institucional",
+      "componentes_despliegue": "Google Earth Engine App; Dashboard; Base de datos; No estoy seguro/a",
+      "forma_uso": "Se espera que la información sea consultada en línea por los equipos técnicos para el seguimiento de proyectos, el monitoreo de las subcuencas de la Cuenca Hidrográfica del Canal de Panamá y la identificación de áreas prioritarias para conservación y restauración. Los resultados podrán utilizarse durante reuniones técnicas, procesos de planificación, elaboración de informes y evaluación de intervenciones en el territorio. Asimismo, podrán servir como apoyo para la validación en campo y la toma de decisiones basada en información geoespacial actualizada.",
+      "requiere_actualizacion": "si",
+      "descripcion_actualizacion": "La actualización se realizaría de forma semiautomática. Los productos satelitales e indicadores ambientales podrían actualizarse periódicamente a partir de fuentes de datos abiertas, mientras que la información territorial e institucional se incorporaría manualmente cuando se generen nuevos datos o se requieran ajustes. Se espera realizar actualizaciones periódicas para mantener información reciente sobre cobertura boscosa, incendios y otros indicadores relevantes para el monitoreo de las subcuencas."
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos de incendios; Productos de vegetación; Biomasa / carbono; Agua / humedad / humedales; Datos de campo; Límites locales / institucionales",
+      "disponibles": "Se dispone de información geoespacial de la Cuenca Hidrográfica del Canal de Panamá, incluyendo los límites de la cuenca y sus subcuencas, así como capas de ríos, caminos y límites administrativos. Adicionalmente, se cuenta con la capa de corredores biológicos de Panamá elaborada por Almanaque Azul, la cual puede utilizarse para análisis de conectividad ecológica e identificación de posibles amenazas sobre áreas estratégicas para la conservación.",
+      "faltantes": "se requiere identificar fuentes de datos actualizadas para el monitoreo de incendios, cobertura boscosa y conectividad ecológica, así como conocer metodologías y productos geoespaciales adecuados para priorizar áreas de restauración e integrar esta información con los datos territoriales disponibles.",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura / uso del suelo; Detección de cambios; Series temporales; Métricas de paisaje / conectividad; Análisis de riesgo; Validación de campo; Integración con bases de datos; Visualización / tablero",
+      "flujo_imaginado": "Se organizará la información geoespacial disponible de la Cuenca Hidrográfica del Canal de Panamá y sus subcuencas, junto con capas de ríos, caminos, límites administrativos y corredores biológicos. Posteriormente, se utilizarán imágenes satelitales para analizar cambios en la cobertura del suelo, incendios e indicadores ambientales relevantes. Los resultados se complementarán con análisis de conectividad y priorización de áreas para conservación y restauración, integrándose finalmente en un visor para consulta, monitoreo y generación de reportes.",
+      "indices_algoritmos": "NDVI, NDMI, NBR y dNBR; análisis multitemporal y detección de cambios; métricas de paisaje y conectividad ecológica; análisis de priorización espacial; y el uso de Google Earth Engine, ArcGIS Pro y QGIS para el procesamiento, análisis y visualización de datos satelitales y territoriales.",
+      "frecuencia_actualizacion": "anual"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "¿Qué indicadores geoespaciales generarían mayor valor para priorizar acciones de conservación y restauración a nivel de subcuenca dentro de la Cuenca Hidrográfica del Canal de Panamá?",
+      "areas_asesoria": "Alcance y producto mínimo viable; Metodología y análisis geoespacial; Producto esperado y visualización; Despliegue digital\nPreguntas sobre alcance\n¿Es adecuado utilizar las subcuencas de la Cuenca Hidrográfica del Canal de Panamá como unidad de análisis para el monitoreo territorial o existiría una escala más apropiada para la toma de decisiones?¿Qué alcance debería tener una primera versión para generar resultados útiles sin intentar abordar demasiados componentes al mismo tiempo?¿Cómo priorizar las subcuencas que requieren mayor atención considerando conectividad ecológica, presión antrópica, incendios y presencia de proyectos de conservación?",
+      "datos": "No indicado en la ficha",
+      "metodologia": "¿Qué metodologías recomiendan para identificar áreas críticas para la conectividad ecológica dentro de la Cuenca Hidrográfica del Canal de Panamá?¿Cómo integrar información de cobertura forestal, incendios, corredores biológicos e hidrología en un análisis territorial coherente y fácil de interpretar?¿Qué métricas podrían utilizarse para evaluar cambios en la condición del paisaje a través del tiempo?",
+      "validacion": "No indicado en la ficha",
+      "producto": "¿Qué indicadores y visualizaciones aportarían mayor valor para el monitoreo territorial a nivel de subcuenca?¿Cómo presentar la información para que pueda ser interpretada fácilmente por usuarios con diferentes niveles de experiencia en SIG?¿Qué elementos deberían visualizarse de forma prioritaria en una primera versión para evitar sobrecargar al usuario con demasiada información?¿Qué tipo de reportes, gráficos o resúmenes automáticos serían más útiles para apoyar reuniones técnicas y procesos de toma de decisiones?¿Cómo diseñar la visualización para que permita identificar rápidamente cambios relevantes y áreas que requieren atención prioritaria?",
+      "despliegue": "¿Qué componentes deberían desarrollarse primero para generar valor institucional desde una etapa temprana?¿Cómo asegurar que la información generada sea utilizada de manera continua por los equipos técnicos y no únicamente como una herramienta de consulta ocasional?¿Qué mecanismos recomiendan para garantizar la actualización y sostenibilidad de la solución una vez finalizada su fase inicial de desarrollo?¿Cómo puede integrarse la solución con futuras bases de datos institucionales, nuevos proyectos y otras iniciativas de monitoreo territorial?"
+    }
+  },
+  {
+    "id": "20",
+    "slug": "20-agroeudr-miambiente",
+    "sala": 4,
+    "titulo": "AGROEUDR_MIAMBIENTE",
+    "proponentes": "Roney Samaniego",
+    "institucion": "Ministerio de Ambiente",
+    "paises": [
+      "Panamá"
+    ],
+    "correo": "rsamaniego@miambiente.gob.pa",
+    "grupo_trabajo": "Cadenas productivas, EUDR, agricultura, carbono, plataformas y despliegue digital",
+    "sala_discusion": "Grupo 4",
+    "areas_tematicas": [
+      "Deforestación",
+      "Degradación forestal",
+      "Agricultura",
+      "Cadenas de suministro / EUDR",
+      "Monitoreo comunitario"
+    ],
+    "problema": "En el área de Río Sereno, cercana al Parque Internacional La Amistad (PILA), pequeños productores agrícolas enfrentan dificultades para demostrar que sus productos están libres de deforestación, requisito clave para exportar al mercado europeo (EUDR). Actualmente no existe un sistema accesible que permita monitorear cambios en el uso del suelo a nivel de parcela y asegurar la trazabilidad territorial.",
+    "relevancia": "Los productores pueden quedar excluidos de mercados europeosSe incrementa el riesgo de expansión agrícola no sostenibleSe dificulta el cumplimiento de compromisos ambientalesSe generan barreras para cadenas de valor sostenibles",
+    "territorio": {
+      "referencia": "Río Sereno (distrito de Renacimiento, Chiriquí), zona de influencia y amortiguamiento del PILA.",
+      "punto_aproximado": "8.890499 -82.699587 0 0",
+      "latitud": "8.890499",
+      "longitud": "-82.699587",
+      "poligono_aproximado": "8.984558 -82.715257 0 0;8.843461 -82.847035 0 0;8.80863 -82.631845 0 0;8.726743 -82.481661 0 0;8.666108 -82.45055 0 0;8.705477 -82.30225 0 0;8.640312 -82.219852 0 0;8.781487 -82.199254 0 0;8.944767 -82.32603 0 0;8.980036 -82.543052 0 0;8.982749 -82.707827 0 0;8.984558 -82.715257 0 0",
+      "cuenta_limites": "si",
+      "archivo_limites": "No indicado en la ficha",
+      "url_limites": "No indicado en la ficha"
+    },
+    "usuarios_finales": {
+      "tipo": "Autoridad ambiental; Productores / cooperativas",
+      "descripcion": "Pequeños productores organizados (cooperativas)Autoridad ambiental y agricola",
+      "decision_apoyo": "Verificación de cumplimiento EUDR (no deforestación post-2020)Validación de parcelas aptas para exportaciónIdentificación de riesgos de deforestaciónPlanificación de prácticas sostenibles"
+    },
+    "producto": {
+      "tipo": "Dashboard / tablero",
+      "descripcion": "Plataforma geoespacial que permita:Visualizar parcelas productivasDetectar cambios de cobertura forestalGenerar evidencia de cumplimiento (no deforestación)Consultar indicadores por productor o parcela",
+      "avance_presencial": "Mapa piloto de parcelas en Río SerenoPrototipo básico de visor web",
+      "nivel_acceso": "por_definir",
+      "componentes_despliegue": "Repositorio GitHub; Google Earth Engine App; Dashboard; Formularios de campo; No estoy seguro/a",
+      "forma_uso": "Productores (acceso simplificado)Institucional (análisis completo)",
+      "requiere_actualizacion": "no_se",
+      "descripcion_actualizacion": "No indicado en la ficha"
+    },
+    "datos_insumos": {
+      "satelitales_fuentes": "Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Límites locales / institucionales; Otro; Índices (NDVI, NDMI, NBR)",
+      "disponibles": "Georreferenciación de parcelasHistorial de uso del suelo (pre y post 2020)mosaico de drones",
+      "faltantes": "No indicado en la ficha",
+      "documento_relacionado": "No indicado en la ficha",
+      "url_documento": "No indicado en la ficha",
+      "enlace_externo": "No indicado en la ficha"
+    },
+    "metodo_flujo": {
+      "metodos_posibles": "Comparación entre fechas; Índices de vegetación; Clasificación de cobertura / uso del suelo; Detección de cambios; Validación de campo; Visualización / tablero; Otro; Evaluación de deforestación post-2020",
+      "flujo_imaginado": "Recolección de parcelas de productoresIntegración con imágenes SentinelAnálisis histórico de cobertura forestalDetección de cambios (antes/después 2020)Clasificación de parcelas (cumple / riesgo / no cumple)Validación en campoVisualización en plataforma",
+      "indices_algoritmos": "Google Earth EngineQGIS / ESRIKoboToolbox (levantamiento en campo)",
+      "frecuencia_actualizacion": "temporada"
+    },
+    "preguntas_asesoria": {
+      "pregunta_principal": "Diseño de visor para usuarios no técnicos",
+      "areas_asesoria": "Alcance y producto mínimo viable",
+      "datos": "No indicado en la ficha",
+      "metodologia": "No indicado en la ficha",
+      "validacion": "No indicado en la ficha",
+      "producto": "No indicado en la ficha",
+      "despliegue": "No indicado en la ficha"
+    }
+  }
+]

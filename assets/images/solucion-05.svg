@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#002266"/>
+            <stop offset="100%" stop-color="#001133"/>
+        </linearGradient>
+        <linearGradient id="mountGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#0088cc" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#002266" stop-opacity="0.2"/>
+        </linearGradient>
+        <linearGradient id="fireGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#ef4444"/>
+            <stop offset="100%" stop-color="#ea580c"/>
+        </linearGradient>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#ffffff"/>
+        </marker>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+    
+    <!-- Background Grid -->
+    <g opacity="0.15"><line x1="0" y1="45" x2="800" y2="45" stroke="#ffffff" stroke-width="1"/><line x1="80" y1="0" x2="80" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="90" x2="800" y2="90" stroke="#ffffff" stroke-width="1"/><line x1="160" y1="0" x2="160" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="135" x2="800" y2="135" stroke="#ffffff" stroke-width="1"/><line x1="240" y1="0" x2="240" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="180" x2="800" y2="180" stroke="#ffffff" stroke-width="1"/><line x1="320" y1="0" x2="320" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="225" x2="800" y2="225" stroke="#ffffff" stroke-width="1"/><line x1="400" y1="0" x2="400" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="270" x2="800" y2="270" stroke="#ffffff" stroke-width="1"/><line x1="480" y1="0" x2="480" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="315" x2="800" y2="315" stroke="#ffffff" stroke-width="1"/><line x1="560" y1="0" x2="560" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-width="1"/><line x1="640" y1="0" x2="640" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="405" x2="800" y2="405" stroke="#ffffff" stroke-width="1"/><line x1="720" y1="0" x2="720" y2="450" stroke="#ffffff" stroke-width="1"/><circle cx="400" cy="225" r="160" fill="none" stroke="#ffcc00" stroke-dasharray="5,5" stroke-width="1.5"/><circle cx="400" cy="225" r="230" fill="none" stroke="#0088cc" stroke-dasharray="10,5" stroke-width="1"/></g>
+    
+    <!-- Unique Graphic Content -->
+    
+        <!-- Protective Shield with Mexico outline concept -->
+        <path d="M 350 130 L 450 130 L 470 220 C 470 270 400 300 400 300 C 400 300 330 270 330 220 Z" fill="none" stroke="#10b981" stroke-width="4"/>
+        <path d="M 360 140 L 440 140 L 455 215 C 455 255 400 280 400 280 C 400 280 345 255 345 215 Z" fill="#064e3b" opacity="0.4"/>
+        <!-- Pine Tree inside Shield -->
+        <polygon points="400,150 425,190 375,190" fill="#10b981"/>
+        <polygon points="400,180 435,230 365,230" fill="#059669"/>
+        <rect x="394" y="230" width="12" height="25" fill="#e2e8f0"/>
+        <!-- Orbits representing Satellite monitoring -->
+        <ellipse cx="400" cy="220" rx="150" ry="60" fill="none" stroke="#0088cc" stroke-width="1.5" stroke-dasharray="5,5"/>
+        
+    
+    <!-- Label Badges & Text Overlay -->
+    <!-- Grupo badge -->
+    <rect x="40" y="40" width="230" height="30" rx="4" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1" style="backdrop-filter: blur(5px);"/>
+    <text x="55" y="59" fill="#ffffff" font-family="'Noto Sans', sans-serif" font-size="11" font-weight="bold" letter-spacing="0.5">Grupo 1: Cobertura y Bosques</text>
+    
+    <!-- ID Display -->
+    <text x="760" y="80" fill="rgba(255,255,255,0.08)" font-family="'Noto Sans', sans-serif" font-size="72" font-weight="bold" text-anchor="end">05</text>
+    
+    <!-- Title -->
+    <text x="40" y="360" fill="#ffffff" font-family="'Noto Sans', sans-serif" font-size="20" font-weight="bold">
+        <tspan x="40" dy="0">Sistema Integral de Monitoreo Satelital para las ANP de...</tspan>
+    </text>
+    
+    <!-- Institution / Country -->
+    <text x="40" y="400" fill="#0088cc" font-family="'Noto Sans', sans-serif" font-size="13" font-weight="bold">Organización de las Naciones Unidas para la A... | <tspan fill="#ffffff" font-weight="normal">México</tspan></text>
+</svg>

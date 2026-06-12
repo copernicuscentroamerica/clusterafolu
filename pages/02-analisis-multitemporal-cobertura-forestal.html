@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análisis multitemporal de cobertura forestal (Ganancias, pérdidas y alerta de deforestación) en múltiples áreas de Honduras - Clúster Copernicus AFOLU II</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <meta name="description" content="Análisis multitemporal de cobertura forestal (Ganancias, pérdidas y alerta de deforestación) en múltiples áreas de Honduras. Idea de solución del Clúster Copernicus AFOLU II de Marlon Alexander Díaz Gómez.">
+</head>
+<body>
+
+  <!-- EU Top Bar -->
+  <div class="eu-top-bar">
+    <div class="eu-top-bar-container">
+      <div class="eu-brand-left">
+        <svg class="eu-flag-svg" viewBox="0 0 810 540" width="24" height="16" xmlns="http://www.w3.org/2000/svg">
+  <rect width="810" height="540" fill="#003399"/>
+  <polygon points="405.0,120.0 408.4,130.4 419.3,130.4 410.4,136.8 413.8,147.1 405.0,140.7 396.2,147.1 399.6,136.8 390.7,130.4 401.6,130.4" fill="#ffcc00" /><polygon points="472.5,138.1 475.9,148.5 486.8,148.5 477.9,154.8 481.3,165.2 472.5,158.8 463.7,165.2 467.1,154.8 458.2,148.5 469.1,148.5" fill="#ffcc00" /><polygon points="521.9,187.5 525.3,197.9 536.2,197.9 527.3,204.3 530.7,214.6 521.9,208.2 513.1,214.6 516.5,204.3 507.6,197.9 518.6,197.9" fill="#ffcc00" /><polygon points="540.0,255.0 543.4,265.4 554.3,265.4 545.4,271.8 548.8,282.1 540.0,275.7 531.2,282.1 534.6,271.8 525.7,265.4 536.6,265.4" fill="#ffcc00" /><polygon points="521.9,322.5 525.3,332.9 536.2,332.9 527.3,339.3 530.7,349.6 521.9,343.2 513.1,349.6 516.5,339.3 507.6,332.9 518.6,332.9" fill="#ffcc00" /><polygon points="472.5,371.9 475.9,382.3 486.8,382.3 477.9,388.7 481.3,399.0 472.5,392.6 463.7,399.0 467.1,388.7 458.2,382.3 469.1,382.3" fill="#ffcc00" /><polygon points="405.0,390.0 408.4,400.4 419.3,400.4 410.4,406.8 413.8,417.1 405.0,410.7 396.2,417.1 399.6,406.8 390.7,400.4 401.6,400.4" fill="#ffcc00" /><polygon points="337.5,371.9 340.9,382.3 351.8,382.3 342.9,388.7 346.3,399.0 337.5,392.6 328.7,399.0 332.1,388.7 323.2,382.3 334.1,382.3" fill="#ffcc00" /><polygon points="288.1,322.5 291.4,332.9 302.4,332.9 293.5,339.3 296.9,349.6 288.1,343.2 279.3,349.6 282.7,339.3 273.8,332.9 284.7,332.9" fill="#ffcc00" /><polygon points="270.0,255.0 273.4,265.4 284.3,265.4 275.4,271.8 278.8,282.1 270.0,275.7 261.2,282.1 264.6,271.8 255.7,265.4 266.6,265.4" fill="#ffcc00" /><polygon points="288.1,187.5 291.4,197.9 302.4,197.9 293.5,204.3 296.9,214.6 288.1,208.2 279.3,214.6 282.7,204.3 273.8,197.9 284.7,197.9" fill="#ffcc00" /><polygon points="337.5,138.1 340.9,148.5 351.8,148.5 342.9,154.8 346.3,165.2 337.5,158.8 328.7,165.2 332.1,154.8 323.2,148.5 334.1,148.5" fill="#ffcc00" />
+</svg>
+        <span>Unión Europea</span>
+      </div>
+      <div class="eu-brand-divider"></div>
+      <div class="eu-brand-right">
+        <img src="../assets/images/GG_logo-BLUE.svg" alt="Global Gateway" class="gg-logo-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="landing-hero">
+    <div class="landing-hero-container">
+      <div class="landing-hero-content">
+        <a href="../index.html" class="btn-back">
+          <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+          Volver al catálogo
+        </a>
+        <h2 style="margin-top: 1.5rem;">Análisis multitemporal de cobertura forestal (Ganancias, pérdidas y alerta de deforestación) en múltiples áreas de Honduras</h2>
+        
+        <div class="landing-hero-meta">
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Proponente(s)</span>
+            <span class="hero-meta-val">Marlon Alexander Díaz Gómez</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Institución</span>
+            <span class="hero-meta-val">Instituto Nacional de Conservación y Desarrollo Forestal, Áreas Protegidas y Vida Silvestre.</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">País(es)</span>
+            <span class="hero-meta-val">Honduras</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Grupo</span>
+            <span class="hero-meta-val">Grupo 1 - Cobertura, deforestación, cambio de uso y monitoreo forestal territorial</span>
+          </div>
+        </div>
+      </div>
+      <div class="landing-hero-img">
+        <img src="../assets/images/solucion-02.svg" alt="Ilustración principal de la solución">
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="landing-main">
+    
+    <!-- Body Content (Left Side) -->
+    <div class="landing-body">
+      
+      <!-- Sección 2: Problema -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">1. Problema que busca atender</h3>
+        <p>Se tiene bastante solicitud para aprobación legal de actividades que están relacionadas con áreas de bosque, por tanto requieren evaluar el historial de cambio y eventos de deforestación. Actualmente, se hace manual y con la app se busca reducir el tiempo de respuesta.</p>
+      </section>
+
+      <!-- Sección 3: Relevancia -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">2. Relevancia del problema</h3>
+        <p>La relevancia está en la aprobación de planes o licencias con bases sólidas, informadas y verificables. Por lo anterior, actualmente el tiempo de respuesta es tardado y dependiente de la capacidad técnica en la interpretación de imágenes satelitales.</p>
+      </section>
+
+      <!-- Sección 6: Producto esperado -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">3. Producto esperado</h3>
+        <p><strong>Tipo de entregable:</strong> Mapa; Capa geoespacial; Reporte; Dashboard / tablero; Aplicación</p>
+        <p><strong>Descripción del producto:</strong> La visualización en panel o canva sería mapa con las capas resultantes y datos de área para pérdidas, ganancias y alertas por deforestación recientes. Área de filtros, para usarlo a partir de las capas wfs del geoportal de ICF Debe descargar geometría y un reporte estandarizado.</p>
+        <p><strong>Componentes de despliegue sugeridos:</strong> Google Earth Engine App; Base de datos; GeoServer u otro servidor geoespacial; API / servicio de datos; Geoportal institucional</p>
+        <p><strong>Nivel de acceso previsto:</strong> institucional</p>
+        <p><strong>Forma de uso institucional:</strong> Reporte impreso que el usuario final usaría para avalar la no deforestación en el área que necesita intervenir o manejar</p>
+        <p><strong>Requiere actualización:</strong> No indicado en la ficha</p>
+      </section>
+
+      <!-- Sección 7: Flujo de trabajo preliminar -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">4. Flujo de trabajo preliminar</h3>
+        <p>El siguiente diagrama conceptualiza el procesamiento de datos y flujo técnico sugerido para la solución:</p>
+        
+        <div class="diagram-container">
+          <img src="../assets/diagrams/proceso-02.svg" alt="Diagrama de flujo de proceso para Análisis multitemporal de cobertura forestal (Ganancias, pérdidas y alerta de deforestación) en múltiples áreas de Honduras">
+        </div>
+        
+        <p><strong>Descripción del flujo metodológico imaginado:</strong></p>
+        <p>Determinar el área de estudio, selección de periodicidad de imagenes sentinel 1 y 2, limpieza de imagenes, calculo de indices necesarios, filtrado según mapas de cobertura como referencia de ser necesario, calculo de diferencias para detección de cambios, visualización en app, generación de geometria, generación de reporte, exportar geometría y pdf.</p>
+        <p><strong>Algoritmos o índices clave:</strong> NDVI, SAVI, con desarrollo en GEE.</p>
+      </section>
+
+      <!-- Sección 8: Datos e insumos -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">5. Datos e insumos identificados</h3>
+        <p>Insumos satelitales y capas locales necesarias para el despliegue del prototipo:</p>
+        <div class="data-table-wrapper">
+          <table class="data-table"><thead><tr><th>Insumo / Variable</th><th>Detalle en la Ficha</th></tr></thead><tbody><tr><td><strong>Datos Satelitales / Fuentes Copernicus</strong></td><td>Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus Land Monitoring Service; Copernicus DEM; Productos/índices de vegetación; Límites locales / institucionales</td></tr><tr><td><strong>Datos Locales Disponibles</strong></td><td>1. Limites administrativas politicas y ambientales 2. Mapas de cobertura forestal 3. Bases del Inventario Nacional Forestal 4. Levantamientos de datos de actividad 5. Bases de datos de alertas de deforestación 6. Entre otras, ICF por ser el rector del sector forestal cuenta con muchas bases de datos geoespaciales importantes.</td></tr><tr><td><strong>Datos Requeridos / Faltantes</strong></td><td>Como se ha visualizado, pienso que se cuenta con toda la información necesaria.</td></tr><tr><td><strong>Documento Relacionado</strong></td><td><a href="https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782980924/attachments/atteMiHJwToqjd47B5c9NeWD/" target="_blank" style="color:var(--primary-color);text-decoration:underline;font-weight:600;">AM-14_33_39.png</a></td></tr><tr><td><strong>Enlaces Externos / Observaciones</strong></td><td><a href="https://1drv.ms/f/c/f4f546ca77b58263/IgDosT3BFFmZQb8Z2D3WqDVpAbXZk75mqkmPvvNkvQfgS84?e=s7x1x9" target="_blank" style="color:var(--primary-color);text-decoration:underline;font-weight:600;">Enlace externo</a></td></tr></tbody></table>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Sidebar Widget Columns (Right Side) -->
+    <div class="landing-sidebar">
+      
+      <!-- Sección 4: Territorio -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Territorio de aplicación</h4>
+        <p><strong>Referencia territorial:</strong> Biosfera del Río Plátano (inicialmente, porque la idea es que sea funcional para todo el país a partir de la carga de un aréa de estudio)</p>
+        
+            <p><strong>Punto aproximado (Coordenadas):</strong> 15.389606, -85.003558</p>
+            <p><strong>Ubicación de referencia:</strong> 15.389606 -85.003558 0 0</p>
+            
+        <p><strong>Polígono aproximado:</strong> <span style="font-size:0.85rem; word-break:break-all; font-family:monospace; color:var(--text-secondary);">15.924356 -85.01207 0 0;15.823966 -84.221229 0 0;15.411319 -84.364019 0 0;14.758947 -85.078004 0 0;15.053028 -85.582113 ...</span></p>
+        <p><strong>Cuenta con límites geoespaciales:</strong> si</p><p><strong>Archivo de límites:</strong> <a href="https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/782980924/attachments/attCw2k9g7dPbupDmDZ52CKA/" target="_blank" style="color:var(--primary-color);text-decoration:underline;font-weight:600;">Rio_platano-13_59_38.zip</a></p>
+      </div>
+
+      <!-- Sección 5: Usuarios y Decisiones -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Usuarios y Decisiones</h4>
+        <p><strong>Tipo de usuario:</strong> Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Academia; Proyecto de cooperación; Sector privado</p>
+        <p><strong>Usuario final:</strong> El usuario final es el propietario de bosques, cooperativas forestales, comunidades organizadas, comanejadores de áreas protegidas. Y para el ICF por la optimización de recursos técnicos y tiempo.</p>
+        <p style="margin-top:0.75rem;"><strong>Decisiones a apoyar:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary);">Priorizar la atención a la deforestación y la extensión de permisos basados en decisiones informadas.</p>
+      </div>
+
+      <!-- Sección 9: Herramientas sugeridas -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Herramientas sugeridas</h4>
+        <div class="tools-list">
+          <span class="tool-badge">Google Earth Engine</span> <span class="tool-badge">R</span> 
+        </div>
+        <p style="font-size:0.8rem; color:var(--text-light); margin-top:0.75rem;">
+          Se sugieren estas herramientas por su madurez tecnológica y compatibilidad con Copernicus.
+        </p>
+      </div>
+
+      <!-- Sección 10: Actividades preliminares -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Actividades preliminares</h4>
+        <ul class="steps-list">
+          <li>Organizar datos</li>
+          <li>Definir AOI de referencia</li>
+          <li>Preparar script inicial</li>
+          <li>Generar indicadores básicos</li>
+          <li>Validar resultados</li>
+          <li>Preparar visualización</li>
+          <li>Documentar flujo</li>
+          <li>Definir ruta de despliegue</li>
+        </ul>
+      </div>
+
+      <!-- Sección 11: Ruta de continuidad -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Ruta de continuidad</h4>
+        <p><strong>Durante la jornada presencial:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:1rem;">La estructuración e integración de todas las fuentes de datos a utilizar y la aparaciencia del panel o canva, con la finalidad de que la tutoría se base en el refinamiento de resultados.</p>
+        <p><strong>Acompañamiento posterior y despliegue:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary);">continua - Actualización requerida para dar continuidad técnica al prototipo.</p>
+      </div>
+
+      <!-- Asesoría Sesión 6 -->
+      <div class="sidebar-widget" style="background-color: var(--accent-light); border-color: var(--accent-color);">
+        <h4 class="sidebar-widget-title" style="color: var(--primary-color);">Pregunta para la Asesoría</h4>
+        <p style="font-size:0.9rem; font-weight:600; color:var(--primary-color);">¿Que tipo de filtro me recomendaría utilizar para limpiar el área, considerando que la zona existe alta presencia de nubes y sombras?</p>
+        <p style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.5rem;"><strong>Áreas solicitadas:</strong> Alcance y delimitación del problema; Validación de resultados; Despliegue digital; Sostenibilidad institucional y mantenimiento
+Preguntas sobre alcance
+¿Estoy involucrando varios resultados en un solo proceso, eso es factible?</p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer Pagination & Navigation -->
+  <section class="landing-pagination">
+    <a href="01-gestion-paisaje-montecristo.html" class="btn-nav">
+      <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      Anterior: Gestión del paisaje forestal t...
+    </a>
+    
+    <a href="../index.html" class="btn-nav">
+      Catálogo
+    </a>
+    
+    <a href="03-cambio-cobertura-frontera-agricola.html" class="btn-nav">
+      Siguiente: Monitoreo del cambio de cobert...
+      <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-logo-wrapper">
+        <img src="../assets/images/GG_logo-WHITE.svg" alt="Global Gateway" class="gg-footer-logo">
+      </div>
+      <p class="copernicus-tag">Clúster Copernicus AFOLU II</p>
+      <p>Laboratorio de Prototipado 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>

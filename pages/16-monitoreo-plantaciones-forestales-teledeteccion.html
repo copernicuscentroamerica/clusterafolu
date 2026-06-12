@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoreo de plantaciones forestales mediante teledetección y aprendizaje profundo - Clúster Copernicus AFOLU II</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <meta name="description" content="Monitoreo de plantaciones forestales mediante teledetección y aprendizaje profundo. Idea de solución del Clúster Copernicus AFOLU II de Mauricio Vega-Araya.">
+</head>
+<body>
+
+  <!-- EU Top Bar -->
+  <div class="eu-top-bar">
+    <div class="eu-top-bar-container">
+      <div class="eu-brand-left">
+        <svg class="eu-flag-svg" viewBox="0 0 810 540" width="24" height="16" xmlns="http://www.w3.org/2000/svg">
+  <rect width="810" height="540" fill="#003399"/>
+  <polygon points="405.0,120.0 408.4,130.4 419.3,130.4 410.4,136.8 413.8,147.1 405.0,140.7 396.2,147.1 399.6,136.8 390.7,130.4 401.6,130.4" fill="#ffcc00" /><polygon points="472.5,138.1 475.9,148.5 486.8,148.5 477.9,154.8 481.3,165.2 472.5,158.8 463.7,165.2 467.1,154.8 458.2,148.5 469.1,148.5" fill="#ffcc00" /><polygon points="521.9,187.5 525.3,197.9 536.2,197.9 527.3,204.3 530.7,214.6 521.9,208.2 513.1,214.6 516.5,204.3 507.6,197.9 518.6,197.9" fill="#ffcc00" /><polygon points="540.0,255.0 543.4,265.4 554.3,265.4 545.4,271.8 548.8,282.1 540.0,275.7 531.2,282.1 534.6,271.8 525.7,265.4 536.6,265.4" fill="#ffcc00" /><polygon points="521.9,322.5 525.3,332.9 536.2,332.9 527.3,339.3 530.7,349.6 521.9,343.2 513.1,349.6 516.5,339.3 507.6,332.9 518.6,332.9" fill="#ffcc00" /><polygon points="472.5,371.9 475.9,382.3 486.8,382.3 477.9,388.7 481.3,399.0 472.5,392.6 463.7,399.0 467.1,388.7 458.2,382.3 469.1,382.3" fill="#ffcc00" /><polygon points="405.0,390.0 408.4,400.4 419.3,400.4 410.4,406.8 413.8,417.1 405.0,410.7 396.2,417.1 399.6,406.8 390.7,400.4 401.6,400.4" fill="#ffcc00" /><polygon points="337.5,371.9 340.9,382.3 351.8,382.3 342.9,388.7 346.3,399.0 337.5,392.6 328.7,399.0 332.1,388.7 323.2,382.3 334.1,382.3" fill="#ffcc00" /><polygon points="288.1,322.5 291.4,332.9 302.4,332.9 293.5,339.3 296.9,349.6 288.1,343.2 279.3,349.6 282.7,339.3 273.8,332.9 284.7,332.9" fill="#ffcc00" /><polygon points="270.0,255.0 273.4,265.4 284.3,265.4 275.4,271.8 278.8,282.1 270.0,275.7 261.2,282.1 264.6,271.8 255.7,265.4 266.6,265.4" fill="#ffcc00" /><polygon points="288.1,187.5 291.4,197.9 302.4,197.9 293.5,204.3 296.9,214.6 288.1,208.2 279.3,214.6 282.7,204.3 273.8,197.9 284.7,197.9" fill="#ffcc00" /><polygon points="337.5,138.1 340.9,148.5 351.8,148.5 342.9,154.8 346.3,165.2 337.5,158.8 328.7,165.2 332.1,154.8 323.2,148.5 334.1,148.5" fill="#ffcc00" />
+</svg>
+        <span>Unión Europea</span>
+      </div>
+      <div class="eu-brand-divider"></div>
+      <div class="eu-brand-right">
+        <img src="../assets/images/GG_logo-BLUE.svg" alt="Global Gateway" class="gg-logo-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="landing-hero">
+    <div class="landing-hero-container">
+      <div class="landing-hero-content">
+        <a href="../index.html" class="btn-back">
+          <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+          Volver al catálogo
+        </a>
+        <h2 style="margin-top: 1.5rem;">Monitoreo de plantaciones forestales mediante teledetección y aprendizaje profundo</h2>
+        
+        <div class="landing-hero-meta">
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Proponente(s)</span>
+            <span class="hero-meta-val">Mauricio Vega-Araya</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Institución</span>
+            <span class="hero-meta-val">Universidad Nacional, Costa Rica.</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">País(es)</span>
+            <span class="hero-meta-val">Costa Rica</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Grupo</span>
+            <span class="hero-meta-val">Grupo 4 - Cadenas productivas, EUDR, agricultura</span>
+          </div>
+        </div>
+      </div>
+      <div class="landing-hero-img">
+        <img src="../assets/images/solucion-16.svg" alt="Ilustración principal de la solución">
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="landing-main">
+    
+    <!-- Body Content (Left Side) -->
+    <div class="landing-body">
+      
+      <!-- Sección 2: Problema -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">1. Problema que busca atender</h3>
+        <p>En Costa Rica, las plantaciones forestales cumplen funciones productivas, económicas y ambientales; sin embargo, su monitoreo depende frecuentemente de inventarios de campo que requieren tiempo, personal especializado y recursos económicos. Esto dificulta conocer de manera continua su extensión, condición, crecimiento, aprovechamiento y posibles alteraciones. El sector forestal en Costa Raica requiere información actualizada que facilite la planificación y la toma de decisiones. Aunque existen fuentes nacionales e internacionales de información geoespacial como mapas de tipos de bosques (coberturas arbóreas), estos no necesariamente permiten identificar con precisión las características particulares de las plantaciones forestales, siendo fuente de constante confusión con clases similares como bosques y plantaciones de café con sombra, por ejemplo. Con la ayuda de la series temporales satelitales y el aprendizaje profundo, se podría automatizar la identificación y evaluación de plantaciones forestales; no obstante, es necesario determinar su precisión, capacidad de generalización y dependencia de datos de entrenamiento representativos de las condiciones forestales costarricenses. Pregunta central: ¿En qué medida la teledetección y los modelos de aprendizaje profundo permiten monitorear con precisión y de forma periódica las plantaciones forestales de Costa Rica? Objetivo: Construir una serie cronológica anual de mapas de cobertura de plantaciones forestales en Costa Rica.</p>
+      </section>
+
+      <!-- Sección 3: Relevancia -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">2. Relevancia del problema</h3>
+        <p>El Laboratorio de Teledetección de Ecosistemas del INISEFOR-UNA ha colaborado en la elaboración de los mapas de tipos de bosque y otras tierras de Costa Rica desarrollados por el SINAC. Estos productos constituyen una fuente oficial para la caracterización y el monitoreo de la cobertura forestal nacional y se encuentran disponibles mediante los servicios geoespaciales del SNIT. No obstante, uno de los aspectos que requiere fortalecimiento es la separabilidad espectral y temporal de las plantaciones forestales respecto de otras coberturas arbóreas, particularmente los bosques naturales y los sistemas agroforestales. Esta dificultad puede generar confusiones durante los procesos de clasificación y afectar la precisión temática de los mapas. Por ello, la generación de una capa nacional de plantaciones forestales, actualizable anualmente mediante series temporales de imágenes satelitales y modelos de aprendizaje profundo, podría funcionar como información auxiliar para futuras actualizaciones de los mapas de tipos de bosque. Además, permitiría identificar cambios asociados con el establecimiento, crecimiento, aprovechamiento y sustitución de las plantaciones.</p>
+      </section>
+
+      <!-- Sección 6: Producto esperado -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">3. Producto esperado</h3>
+        <p><strong>Tipo de entregable:</strong> Mapa; Capa geoespacial; Reporte; Dashboard / tablero; Visor web; Base de datos; Repositorio técnico</p>
+        <p><strong>Descripción del producto:</strong> El producto esperado consiste en un sistema para el monitoreo anual de las plantaciones forestales de Costa Rica mediante teledetección y modelos de aprendizaje profundo. Incluirá un mapa nacional y capas geoespaciales anuales que permitan identificar, delimitar y consultar la distribución de las plantaciones forestales, así como diferenciarlas de bosques naturales, sistemas agroforestales y otras coberturas arbóreas. Las capas generadas estarán organizadas en una base de datos geoespacial y podrán visualizarse, consultarse y descargarse mediante un visor web y un tablero interactivo. El sistema permitirá explorar estadísticas por año y unidad territorial, comparar cambios temporales y consultar información sobre superficie, localización y nivel de confianza de la clasificación. Asimismo, se generarán reportes automatizados con los principales resultados del monitoreo. Los datos, metadatos y códigos utilizados para el procesamiento, entrenamiento, validación y actualización de los modelos se organizarán en un repositorio institucional, con el propósito de facilitar la reproducibilidad y la actualización periódica del producto. Los resultados podrán utilizarse como información auxiliar para mejorar la separabilidad de las plantaciones forestales en futuras actualizaciones de los mapas de tipos de bosque y otras tierras de Costa Rica elaborados por el SINAC.</p>
+        <p><strong>Componentes de despliegue sugeridos:</strong> Repositorio GitHub; Dashboard</p>
+        <p><strong>Nivel de acceso previsto:</strong> publico</p>
+        <p><strong>Forma de uso institucional:</strong> Como una capa georeferenciada, con sus respectivos metadatos que se puede descargar libremente.</p>
+        <p><strong>Requiere actualización:</strong> si</p><p><strong>Frecuencia / Método de actualización:</strong> Año a año.</p>
+      </section>
+
+      <!-- Sección 7: Flujo de trabajo preliminar -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">4. Flujo de trabajo preliminar</h3>
+        <p>El siguiente diagrama conceptualiza el procesamiento de datos y flujo técnico sugerido para la solución:</p>
+        
+        <div class="diagram-container">
+          <img src="../assets/diagrams/proceso-16.svg" alt="Diagrama de flujo de proceso para Monitoreo de plantaciones forestales mediante teledetección y aprendizaje profundo">
+        </div>
+        
+        <p><strong>Descripción del flujo metodológico imaginado:</strong></p>
+        <p>El flujo inicia con la generación de un mosaicos anuales de imágenes satelitales. A partir de este insumo, la clase de cobertura se modela por separado mediante procesos de clasificación y filtros espaciales y temporales. Esta etapa requiere varias iteraciones para balancear las muestras, incorporar diferencias regionales y ajustar los filtros. Sobre un primer producto se calculan las transiciones entre años y se aplican filtros espaciales para reducir errores, eliminar ruido y resolver conflictos de falsos positivos, etc. La integración se revisa entre tres y cinco veces, ajustando reglas generales y específicas para mejorar las estimaciones. Finalmente, se calculan las estadísticas de superficie y se realiza la evaluación de exactitud. Los resultados se incorporan a una base de datos y se publican mediante un visor web o tablero interactivo. El sistema se actualizaría anualmente con nuevas imágenes, datos de referencia, modelos y herramientas, apoyando futuras versiones de los mapas de tipos de bosque de Costa Rica.</p>
+        <p><strong>Algoritmos o índices clave:</strong> En principio se usará Random Forest y posterioremente alguna red neuronal.</p>
+      </section>
+
+      <!-- Sección 8: Datos e insumos -->
+      <section class="landing-section">
+        <h3 class="landing-section-title">5. Datos e insumos identificados</h3>
+        <p>Insumos satelitales y capas locales necesarias para el despliegue del prototipo:</p>
+        <div class="data-table-wrapper">
+          <table class="data-table"><thead><tr><th>Insumo / Variable</th><th>Detalle en la Ficha</th></tr></thead><tbody><tr><td><strong>Datos Satelitales / Fuentes Copernicus</strong></td><td>Sentinel-1 / radar SAR; Sentinel-2 / óptico; Copernicus DEM; Productos/índices de vegetación; Límites locales / institucionales</td></tr><tr><td><strong>Datos Locales Disponibles</strong></td><td>Se utilizarán diversas fuentes que ya poseo.</td></tr><tr><td><strong>Datos Requeridos / Faltantes</strong></td><td>Por ahora todo está</td></tr><tr><td><strong>Documento Relacionado</strong></td><td>No indicado en la ficha</td></tr><tr><td><strong>Enlaces Externos / Observaciones</strong></td><td>No indicado en la ficha</td></tr></tbody></table>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Sidebar Widget Columns (Right Side) -->
+    <div class="landing-sidebar">
+      
+      <!-- Sección 4: Territorio -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Territorio de aplicación</h4>
+        <p><strong>Referencia territorial:</strong> Gran Bosque: Costa Rica</p>
+        
+            <p><strong>Punto aproximado (Coordenadas):</strong> 9.983728, -84.027096</p>
+            <p><strong>Ubicación de referencia:</strong> 9.983728 -84.027096 1200 1</p>
+            
+        <p><strong>Polígono aproximado:</strong> <span style="font-size:0.85rem; word-break:break-all; font-family:monospace; color:var(--text-secondary);">11.199957 -82.461939 0 0;11.199957 -86.341996 0 0;7.732765 -86.047786 0 0;7.623887 -82.156948 1300 1;11.199957 -82.46193...</span></p>
+        <p><strong>Cuenta con límites geoespaciales:</strong> si</p><p><strong>Archivo de límites:</strong> <a href="https://eu.kobotoolbox.org/api/v2/assets/an3xy6gcKXjXsCTiy6cxiK/data/783245244/attachments/attTwauTqwcgGtk5DeJh9pgF/" target="_blank" style="color:var(--primary-color);text-decoration:underline;font-weight:600;">gadm41_CRI.gpkg-15_38_12.zip</a></p>
+      </div>
+
+      <!-- Sección 5: Usuarios y Decisiones -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Usuarios y Decisiones</h4>
+        <p><strong>Tipo de usuario:</strong> Autoridad ambiental; Gobierno local; Área protegida; Comunidad / pueblos indígenas; Organización liderada por mujeres; ONG / organización conservacionista; Academia; Productores / cooperativas; Proyecto de cooperación; Sector privado; Otro; Otro: Todo tipo de usuario que necesite información sobre plantaciones forestales</p>
+        <p><strong>Usuario final:</strong> Todo tipo de usuario que necesite información sobre plantaciones forestales</p>
+        <p style="margin-top:0.75rem;"><strong>Decisiones a apoyar:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary);">Se pretente apoyar a las instituciones nacionales responsables de la generación de estadísticas y mapas oficiales.</p>
+      </div>
+
+      <!-- Sección 9: Herramientas sugeridas -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Herramientas sugeridas</h4>
+        <div class="tools-list">
+          <span class="tool-badge">R</span> 
+        </div>
+        <p style="font-size:0.8rem; color:var(--text-light); margin-top:0.75rem;">
+          Se sugieren estas herramientas por su madurez tecnológica y compatibilidad con Copernicus.
+        </p>
+      </div>
+
+      <!-- Sección 10: Actividades preliminares -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Actividades preliminares</h4>
+        <ul class="steps-list">
+          <li>Organizar datos</li>
+          <li>Definir AOI de referencia</li>
+          <li>Preparar script inicial</li>
+          <li>Generar indicadores básicos</li>
+          <li>Validar resultados</li>
+          <li>Preparar visualización</li>
+          <li>Documentar flujo</li>
+          <li>Definir ruta de despliegue</li>
+        </ul>
+      </div>
+
+      <!-- Sección 11: Ruta de continuidad -->
+      <div class="sidebar-widget">
+        <h4 class="sidebar-widget-title">Ruta de continuidad</h4>
+        <p><strong>Durante la jornada presencial:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:1rem;">Una estrategia para el balanceo de muestras, ajustes por región y un primer filtrado. Colecciones y mosaicos a utilizar. Iniciar la configuración de una red neuronal.</p>
+        <p><strong>Acompañamiento posterior y despliegue:</strong></p>
+        <p style="font-size:0.875rem; color:var(--text-secondary);">anual - Actualización requerida para dar continuidad técnica al prototipo.</p>
+      </div>
+
+      <!-- Asesoría Sesión 6 -->
+      <div class="sidebar-widget" style="background-color: var(--accent-light); border-color: var(--accent-color);">
+        <h4 class="sidebar-widget-title" style="color: var(--primary-color);">Pregunta para la Asesoría</h4>
+        <p style="font-size:0.9rem; font-weight:600; color:var(--primary-color);">Cómo configurarar y cuál red neuronal es la adecuada para resolver el problema planteado.</p>
+        <p style="font-size:0.8rem; color:var(--text-secondary); margin-top:0.5rem;"><strong>Áreas solicitadas:</strong> Otros
+Otras preguntas
+Cómo configurarar y cuál red neuronal es la adecuada para resolver el problema planteado.</p>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer Pagination & Navigation -->
+  <section class="landing-pagination">
+    <a href="15-alerta-temprana-plaga-musaceas.html" class="btn-nav">
+      <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      Anterior: Monitoreo de alerta temprana d...
+    </a>
+    
+    <a href="../index.html" class="btn-nav">
+      Catálogo
+    </a>
+    
+    <a href="17-estimacion-cosecha-cafe-guatemala.html" class="btn-nav">
+      Siguiente: Optimización de la estimación ...
+      <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-logo-wrapper">
+        <img src="../assets/images/GG_logo-WHITE.svg" alt="Global Gateway" class="gg-footer-logo">
+      </div>
+      <p class="copernicus-tag">Clúster Copernicus AFOLU II</p>
+      <p>Laboratorio de Prototipado 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#002266"/>
+            <stop offset="100%" stop-color="#1f1402"/>
+        </linearGradient>
+        <linearGradient id="mountGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#eab308" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#002266" stop-opacity="0.2"/>
+        </linearGradient>
+        <linearGradient id="fireGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#ef4444"/>
+            <stop offset="100%" stop-color="#ea580c"/>
+        </linearGradient>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 1 L 10 5 L 0 9 z" fill="#ffffff"/>
+        </marker>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+    
+    <!-- Background Grid -->
+    <g opacity="0.15"><line x1="0" y1="45" x2="800" y2="45" stroke="#ffffff" stroke-width="1"/><line x1="80" y1="0" x2="80" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="90" x2="800" y2="90" stroke="#ffffff" stroke-width="1"/><line x1="160" y1="0" x2="160" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="135" x2="800" y2="135" stroke="#ffffff" stroke-width="1"/><line x1="240" y1="0" x2="240" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="180" x2="800" y2="180" stroke="#ffffff" stroke-width="1"/><line x1="320" y1="0" x2="320" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="225" x2="800" y2="225" stroke="#ffffff" stroke-width="1"/><line x1="400" y1="0" x2="400" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="270" x2="800" y2="270" stroke="#ffffff" stroke-width="1"/><line x1="480" y1="0" x2="480" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="315" x2="800" y2="315" stroke="#ffffff" stroke-width="1"/><line x1="560" y1="0" x2="560" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-width="1"/><line x1="640" y1="0" x2="640" y2="450" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="405" x2="800" y2="405" stroke="#ffffff" stroke-width="1"/><line x1="720" y1="0" x2="720" y2="450" stroke="#ffffff" stroke-width="1"/><circle cx="400" cy="225" r="160" fill="none" stroke="#ffcc00" stroke-dasharray="5,5" stroke-width="1.5"/><circle cx="400" cy="225" r="230" fill="none" stroke="#eab308" stroke-dasharray="10,5" stroke-width="1"/></g>
+    
+    <!-- Unique Graphic Content -->
+    
+        <!-- Neat plantation grid pattern -->
+        <g fill="#15803d">
+            <polygon points="280,240 295,190 265,190" opacity="0.6"/>
+            <polygon points="340,240 355,190 325,190" opacity="0.6"/>
+            <polygon points="400,240 415,190 385,190" opacity="0.9"/>
+            <polygon points="460,240 475,190 445,190" opacity="0.6"/>
+            <polygon points="520,240 535,190 505,190" opacity="0.6"/>
+        </g>
+        <rect x="375" y="170" width="50" height="85" fill="none" stroke="#eab308" stroke-width="2" stroke-dasharray="4,2"/>
+        <text x="375" y="165" fill="#eab308" font-family="monospace" font-size="10" font-weight="bold">TREE 98%</text>
+        
+        <!-- Connected Neural Net Nodes overlaid -->
+        <line x1="300" y1="140" x2="400" y2="150" stroke="#eab308" stroke-width="1.5"/>
+        <line x1="400" y1="150" x2="500" y2="130" stroke="#eab308" stroke-width="1.5"/>
+        <line x1="300" y1="140" x2="400" y2="200" stroke="#eab308" stroke-width="1.5"/>
+        <line x1="400" y1="200" x2="500" y2="130" stroke="#eab308" stroke-width="1.5"/>
+        <circle cx="300" cy="140" r="5" fill="#eab308"/>
+        <circle cx="400" cy="150" r="5" fill="#eab308"/>
+        <circle cx="500" cy="130" r="5" fill="#eab308"/>
+        <circle cx="400" cy="200" r="5" fill="#eab308"/>
+        
+    
+    <!-- Label Badges & Text Overlay -->
+    <!-- Grupo badge -->
+    <rect x="40" y="40" width="230" height="30" rx="4" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1" style="backdrop-filter: blur(5px);"/>
+    <text x="55" y="59" fill="#ffffff" font-family="'Noto Sans', sans-serif" font-size="11" font-weight="bold" letter-spacing="0.5">Grupo 4: Agricultura y EUDR</text>
+    
+    <!-- ID Display -->
+    <text x="760" y="80" fill="rgba(255,255,255,0.08)" font-family="'Noto Sans', sans-serif" font-size="72" font-weight="bold" text-anchor="end">16</text>
+    
+    <!-- Title -->
+    <text x="40" y="360" fill="#ffffff" font-family="'Noto Sans', sans-serif" font-size="20" font-weight="bold">
+        <tspan x="40" dy="0">Monitoreo de plantaciones forestales mediante teledetec...</tspan>
+    </text>
+    
+    <!-- Institution / Country -->
+    <text x="40" y="400" fill="#eab308" font-family="'Noto Sans', sans-serif" font-size="13" font-weight="bold">Universidad Nacional, Costa Rica. | <tspan fill="#ffffff" font-weight="normal">Costa Rica</tspan></text>
+</svg>
