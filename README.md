@@ -15,6 +15,8 @@ web_soluciones_cluster_afolu/
 │
 ├── index.html                           # Catálogo general interactivo (20 soluciones)
 ├── README.md                            # Este archivo instructivo y de documentación
+├── generate_pages.py                    # Script de Python para regenerar las páginas HTML
+├── verify_site.py                       # Script de Python para verificar enlaces e integridad del sitio
 │
 ├── data/
 │   └── solutions.json                   # Base de datos estructurada en JSON
@@ -25,11 +27,14 @@ web_soluciones_cluster_afolu/
 ├── js/
 │   └── main.js                          # Control de búsqueda y filtrado dinámico en tiempo real
 │
-├── pages/                               # 20 Landing Pages individuales
-│   ├── 01-gestion-paisaje-montecristo.html
-│   ├── 02-analisis-multitemporal-cobertura-forestal.html
+├── pages/                               # 20 Directorios independientes por solución
+│   ├── 01-gestion-paisaje-montecristo/
+│   │   └── index.html                   # Landing page e índice de la solución
+│   ├── 02-analisis-multitemporal-cobertura-forestal/
+│   │   └── index.html
 │   ├── ...
-│   └── 20-agroeudr-miambiente.html
+│   └── 20-agroeudr-miambiente/
+│       └── index.html
 │
 ├── assets/                              # Recursos visuales estáticos
 │   ├── images/
@@ -105,16 +110,15 @@ Los colores, tipografías y estructura visual se gestionan centralizadamente des
 
 ---
 
-## Automatización y Regeneración del Sitio (Para Desarrolladores)
+## Automatización y Mantenimiento del Sitio (Para Desarrolladores)
 
-En la carpeta temporal de desarrollo se utilizaron dos scripts de Python que facilitan la generación de contenidos a partir de la fuente de datos:
-1. **`parse_data_and_generate.py`**: Lee los archivos `.docx` directamente de `insumos/`, extrae su estructura clave, la limpia e inicializa los directorios del sitio, generando `data/solutions.json`.
-2. **`generate_svgs.py`**: Genera dinámicamente las 20 ilustraciones conceptuales (`assets/images/`) y los 20 diagramas de flujo de proceso (`assets/diagrams/`) con la identidad cromática de cada sala de discusión.
-3. **`generate_pages.py`**: Lee `data/solutions.json` y compila las plantillas para generar el archivo `index.html` y las 20 landing pages en `pages/` de manera consistente y automatizada.
+El proyecto cuenta con scripts de Python ubicados en la raíz del repositorio para facilitar la generación y validación del catálogo de soluciones:
 
-Si tienes Python instalado (por ejemplo, a través de QGIS Python), puedes ejecutar estos scripts en la consola para regenerar el sitio tras cualquier modificación masiva:
+1. **`generate_pages.py`**: Lee `data/solutions.json` y compila las plantillas para generar el archivo `index.html` y las 20 carpetas individuales con su respectivo `index.html` dentro de `pages/` de manera consistente y automatizada.
+2. **`verify_site.py`**: Valida automáticamente la integridad del sitio web, asegurando que no existan enlaces rotos entre el catálogo principal, las páginas de soluciones, las imágenes y diagramas de flujo de procesos.
+
+Si tienes Python instalado, puedes ejecutar estos scripts en la consola para regenerar y verificar el sitio tras cualquier modificación:
 ```powershell
-python parse_data_and_generate.py
-python generate_svgs.py
 python generate_pages.py
+python verify_site.py
 ```
