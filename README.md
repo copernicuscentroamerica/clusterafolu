@@ -56,8 +56,7 @@ web_soluciones_cluster_afolu/
 
 El sitio web está diseñado para funcionar **completamente de forma local**, sin necesidad de servidores web adicionales, conexiones a bases de datos ni conexión a internet activa (a menos que se desee descargar fuentes tipográficas de Google Fonts).
 
-1. Navega hasta la carpeta del proyecto
-2. Haz doble clic sobre el archivo **`index.html`** para abrirlo en tu navegador de preferencia.
+1. Navega hasta la carpeta donde clonaste o descargaste el proyecto en tu computadora (por ejemplo: `C:\ruta\al\proyecto\clusterafolu`) y haz doble clic sobre el archivo **`index.html`** para abrirlo en tu navegador de preferencia.
 3. Utiliza la **barra de búsqueda** en tiempo real para buscar soluciones específicas por título, proponente, institución, país o palabras clave.
 4. Utiliza las **pestañas de filtro** temáticas (ej: *EUDR*, *Incendios y alertas*, *Conectividad y biodiversidad*) para segmentar las soluciones según sus áreas de enfoque.
 5. Haz clic en **"Ver solución"** en cualquier tarjeta para abrir la landing page de esa solución.
@@ -138,23 +137,50 @@ Si tu solución incluye código de procesamiento (ej. Google Earth Engine, scrip
 </details>
 
 <details>
-<summary><b>🚀 3. Flujo para Subir Cambios a GitHub (Comandos Git)</b></summary>
+<summary><b>📥 3. Cómo Clonar y Sincronizar el Repositorio (Primera vez y trabajo diario)</b></summary>
 
-Para subir tus archivos locales al repositorio remoto de GitHub:
+Para descargar el proyecto a tu computadora y trabajar de forma local sincronizado con el repositorio central en GitHub, sigue estos pasos:
 
-1. Abre tu terminal (PowerShell, Git Bash o CMD) en tu computadora y colócate en la raíz del proyecto:
+1. **Clonar por primera vez**:
+   * Abre tu terminal (PowerShell, Git Bash o CMD) en tu computadora.
+   * Navega a la carpeta de tu preferencia donde deseas guardar el proyecto (por ejemplo, `C:\proyectos` o `Documents`):
+     ```powershell
+     cd C:\ruta\a\tu\carpeta\de\preferencia
+     ```
+   * Clona el repositorio oficial ejecutando el siguiente comando:
+     ```powershell
+     git clone https://github.com/copernicuscentroamerica/clusterafolu.git
+     ```
+   * Entra a la carpeta del proyecto recién clonado:
+     ```powershell
+     cd clusterafolu
+     ```
+
+2. **Trabajo diario - Sincronizar cambios**:
+   Antes de empezar a añadir o modificar archivos en tu solución local, **siempre** debes descargarte las últimas modificaciones hechas por otros equipos para evitar conflictos de fusión (merge conflicts). Ejecuta en la terminal:
    ```powershell
-   cd c:\web_antigravity\web_soluciones_cluster_afolu
+   git pull origin main
    ```
-2. Añade los nuevos archivos creados en tu carpeta:
+</details>
+
+<details>
+<summary><b>🚀 4. Cómo Guardar y Subir tus Cambios a GitHub (Comandos Git)</b></summary>
+
+Para registrar localmente tus avances y subirlos de forma segura al repositorio remoto en GitHub:
+
+1. Abre tu terminal y colócate en la raíz de tu repositorio local clonado:
+   ```powershell
+   cd C:\ruta\local\donde\clonaste\el\proyecto\clusterafolu
+   ```
+2. Añade los nuevos archivos y carpetas que hayas creado en el directorio de tu solución (por ejemplo, tus carpetas de `datos/`, `documentos/` o `scripts/`):
    ```powershell
    git add pages/nombre-de-tu-solucion/
    ```
-3. Guarda el registro de tus cambios (commit):
+3. Guarda el registro de tus cambios localmente creando un commit descriptivo:
    ```powershell
    git commit -m "Add: scripts y datos para la solucion XX"
    ```
-4. Sube los cambios al servidor de GitHub:
+4. Sube tus cambios al repositorio remoto en GitHub para compartirlos con el equipo:
    ```powershell
    git push origin main
    ```

@@ -8,7 +8,7 @@ errors = []
 warnings = []
 
 # 1. Check folder structure
-base_dir = r"C:\web_antigravity\web_soluciones_cluster_afolu"
+base_dir = os.path.dirname(os.path.abspath(__file__))
 folders = ["data", "css", "js", "pages", "assets/images", "assets/diagrams", "assets/icons"]
 
 for folder in folders:

@@ -33,7 +33,8 @@ def get_eu_flag_svg(width=24, height=16):
     return svg
 
 # Load data
-json_path = r"C:\web_antigravity\web_soluciones_cluster_afolu\data\solutions.json"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(script_dir, "data", "solutions.json")
 with open(json_path, 'r', encoding='utf-8') as f:
     solutions = json.load(f)
 
@@ -393,7 +394,7 @@ def generate_index_html():
 </body>
 </html>
 '''
-    with open(r"C:\web_antigravity\web_soluciones_cluster_afolu\index.html", 'w', encoding='utf-8') as f:
+    with open(os.path.join(script_dir, "index.html"), 'w', encoding='utf-8') as f:
       f.write(index_content)
     print("Generated index.html successfully with updated text.")
 
@@ -660,7 +661,7 @@ def generate_landing_pages():
 </body>
 </html>
 '''
-        page_dir = os.path.join(r"C:\web_antigravity\web_soluciones_cluster_afolu\pages", slug)
+        page_dir = os.path.join(script_dir, "pages", slug)
         os.makedirs(page_dir, exist_ok=True)
         page_path = os.path.join(page_dir, "index.html")
         with open(page_path, 'w', encoding='utf-8') as f:
