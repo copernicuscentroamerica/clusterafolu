@@ -1,8 +1,8 @@
 # Clúster Copernicus AFOLU II - Catálogo de Soluciones AFOLU-Copernicus
 
-Este proyecto contiene un catálogo web estático, interactivo e institucional que presenta las 20 ideas de solución diseñadas en el marco del **Clúster Copernicus AFOLU II (Laboratorio de Prototipado 2026)**.
+Este proyecto contiene un catálogo web que presenta 20 ideas de soluciones que están siendo diseñadas en el marco del **Clúster Copernicus AFOLU II**.
 
-El objetivo del sitio es documentar de forma clara y accesible los prototipos técnicos propuestos para la gestión forestal, agricultura sostenible, biodiversidad, restauración y cumplimiento del reglamento EUDR en Centroamérica y el Caribe, utilizando datos de observación de la Tierra y productos Copernicus.
+El objetivo del sitio es documentar los prototipos técnicos propuestos para la gestión forestal, agricultura sostenible, biodiversidad, restauración y cumplimiento del reglamento EUDR en Mesoamérica y República Dominicana, utilizando datos de observación de la Tierra.
 
 ---
 
@@ -22,7 +22,7 @@ web_soluciones_cluster_afolu/
 │   └── solutions.json                   # Base de datos estructurada en JSON
 │
 ├── css/
-│   └── styles.css                       # Estilos CSS premium, responsivos y con identidad visual
+│   └── styles.css                       # Estilos CSS responsivos
 │
 ├── js/
 │   └── main.js                          # Control de búsqueda y filtrado dinámico en tiempo real
@@ -45,9 +45,9 @@ web_soluciones_cluster_afolu/
 │   │   └── ...
 │   └── icons/                           # Íconos auxiliares
 │
-└── insumos/                             # Insumos originales (no modificados)
+└── insumos/                             # Insumos originales
     ├── Fichas Word consolidadas
-    └── Excel original de respuestas
+    └── Excel original de respuestas del formulario de la ídea inicial las soluciones propuestas
 ```
 
 ---
@@ -56,8 +56,8 @@ web_soluciones_cluster_afolu/
 
 El sitio web está diseñado para funcionar **completamente de forma local**, sin necesidad de servidores web adicionales, conexiones a bases de datos ni conexión a internet activa (a menos que se desee descargar fuentes tipográficas de Google Fonts).
 
-1. Navega hasta la carpeta del proyecto en tu computadora: `C:\web_antigravity\web_soluciones_cluster_afolu`
-2. Haz doble clic sobre el archivo **`index.html`** para abrirlo en tu navegador de preferencia (Google Chrome, Microsoft Edge, Mozilla Firefox o Safari).
+1. Navega hasta la carpeta del proyecto
+2. Haz doble clic sobre el archivo **`index.html`** para abrirlo en tu navegador de preferencia.
 3. Utiliza la **barra de búsqueda** en tiempo real para buscar soluciones específicas por título, proponente, institución, país o palabras clave.
 4. Utiliza las **pestañas de filtro** temáticas (ej: *EUDR*, *Incendios y alertas*, *Conectividad y biodiversidad*) para segmentar las soluciones según sus áreas de enfoque.
 5. Haz clic en **"Ver solución"** en cualquier tarjeta para abrir la landing page de esa solución.
@@ -68,29 +68,8 @@ El sitio web está diseñado para funcionar **completamente de forma local**, si
 ## Decisiones de Consolidación e Insumos
 
 De acuerdo con las instrucciones de calidad y alcance del proyecto:
-1. **Fichas Word como Fuente de Verdad**: La información fue extraída directamente de las **20 fichas de documentación técnica (archivos Word)** presentes en la carpeta `insumos/`. El archivo Excel se usó únicamente como fuente secundaria de verificación debido a que contenía registros obsoletos, duplicados o previos a las versiones finales acordadas.
+1. **Fichas Word como Fuente de Verdad**: La información fue extraída directamente de las **20 fichas de documentación técnica (archivos Word)** presentes en la carpeta `insumos/`.
 2. **Campos Faltantes**: En los casos en que una ficha original no especificaba un campo en particular (como coordenadas, archivos de límites exactos, o preguntas de validación), el sistema registra explícitamente la leyenda `"No indicado en la ficha"` para preservar la integridad científica y evitar la invención de información institucional.
-3. **Mapeo de las 20 Soluciones**:
-   - **ID 01**: Freddy Díaz – Macizo Montecristo.
-   - **ID 02**: Marlon Díaz – Cobertura Forestal Honduras.
-   - **ID 03**: Willy Castañeda – Frontera Agrícola El Salvador.
-   - **ID 04**: FONAFIFO – Cambios de Cobertura PSA Costa Rica.
-   - **ID 05**: Florencio García – Sistema Monitoreo Satelital ANP México.
-   - **ID 06**: Néstor Muñoz & Jesús Constantino – Conectividad y Hábitat Selva Maya.
-   - **ID 07**: Anthony Morgan – Belize Heat Points and Burn Scar.
-   - **ID 08**: Amílcar López – Cicatrices de Fuego El Salvador.
-   - **ID 09**: CONAP / Alvin Mayen & Greysi González – Incendios Petén.
-   - **ID 10**: Antonio Clemente – Detección Temprana Uso Suelo Panamá.
-   - **ID 11**: Ana Cristina Moreno – Valle Nuevo Cobertura e Incendios.
-   - **ID 12**: Manuel Morales – Paso del Puma Costa Rica.
-   - **ID 13**: Oscar Barrantes – Conectividad Ecológica Gran Bosque La Amistad.
-   - **ID 14**: Zamorano – Conectividad y Ganadería Río Plátano.
-   - **ID 15**: MAG Costa Rica – Alerta Temprana Plagas Musáceas.
-   - **ID 16**: Mauricio Vega – Monitoreo Plantaciones Forestales.
-   - **ID 17**: Marco Rodríguez – Cosecha Café Guatemala.
-   - **ID 18**: Nikte’ Cú Chén – Cacao Libre de Deforestación.
-   - **ID 19**: Fundación NATURA – Seguimiento Territorial Cuenca del Canal.
-   - **ID 20**: Roney Samaniego – AGROEUDR_MIAMBIENTE Panamá.
 
 ---
 
